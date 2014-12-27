@@ -1,0 +1,127 @@
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	margin-top: -7em;
+	padding-bottom: 2.4em;
+	margin-left: -.47em;
+	margin-top: -7.2em;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-bottom: inset;
+}
+
+#home_icon {
+	width: 85px;
+	height: 85px;
+	-webkit-border-radius: 150px;
+	margin-left: .2em;
+	margin-top: .1em;
+}
+
+#home_icon:hover {
+	opacity: .4;
+	background-color: black;
+}
+
+#mb {
+	font-family: Gill Sans, sans-serif;
+	font-size: 3em;
+	text-decoration: underline;
+	margin-left: .3em;
+	margin-top: -1.6em;
+	margin-bottom: -.5em;
+}
+
+nav {
+	display: block;
+	float: right;
+	margin-top: -1.5em;
+}
+
+ul {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: 1.5em;
+	margin-top: .4em;
+	color: #014b5d;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: .4em
+}
+
+li:hover {
+	text-decoration: underline;
+	color: #cecea2;
+	transition: .4s ease;
+}
+
+#blogs {
+	display: block;
+}
+
+#blog:hover {
+
+}
+
+li:active {
+	text-shadow: 1px 1px black;
+}
+
+#options {
+	display: block;
+}
+
+#main_img {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 4.5em;
+	font-style: bold;
+	color: white;
+	margin-top: 1.6em;
+}
+
+#main_text {
+	background-image: url("../../mbouzi.github.io/imgs/vinyl.jpg");
+	padding-bottom: 5em;
+	border: solid;
+	border-top-width: .2em;
+	margin-left: -.2em;
+	border-top-color: #8d8b6f;
+	border-bottom-width: .2em;
+	border-bottom-color: #3c666a;
+	margin-right: -1em;
+}
+
+#words {
+	margin-top: -5.4em;
+	transition: .7s ease;
+	opacity: .1;
+	text-shadow: 3px 3px black;
+	font-size: 2em;
+	padding-top: 2.5em;
+	font-family: 'Vollkorn', serif;
+}
+
+#words:hover {
+	opacity: 1;
+}
+
+#kitchen {
+	width: 90%;
+}
+
+.chef {
+	font-family: 'Vollkorn', serif;
+}
+
+.read_more:hover {
+	text-decoration: underline;
+	color: #3c666a;
+	transition: .4s ease;
+}

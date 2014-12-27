@@ -1,0 +1,234 @@
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	margin-top: -7em;
+	background-color: white;
+	padding-bottom: 2.4em;
+	margin-left: -.47em;
+	margin-top: -7.2em;
+	background-color: white;
+	border-bottom: inset;
+}
+
+#home_icon {
+	width: 85px;
+	height: 85px;
+	-webkit-border-radius: 150px;
+	margin-left: .2em;
+	margin-top: .1em;
+}
+
+#home_icon:hover {
+	opacity: .4;
+	background-color: black;
+}
+
+#mb {
+	font-family: Gill Sans, sans-serif;
+	font-size: 3em;
+	text-decoration: underline;
+	margin-left: .3em;
+	margin-top: -1.6em;
+}
+
+nav {
+	display: block;
+	float: right;
+}
+
+ul {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: 1.5em;
+	margin-top: .4em;
+	color: #014b5d;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: .4em
+}
+
+
+li:hover {
+	text-decoration: underline;
+	color: #cecea2;
+	transition: .4s ease;
+}
+
+li:active {
+	text-shadow: 1px 1px black;
+}
+
+#options {
+	display: block;
+	margin-left: 12em;
+	font-size: .5em;
+	margin-top: -.9em;
+	margin-bottom: -1em;
+	display: none;
+}
+
+#options2 {
+	margin-left: 12em;
+	font-size: .5em;
+	margin-top: -1em;
+	display: none;
+}
+
+#main_img {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 4.5em;
+	font-style: bold;
+	color: white;
+	margin-top: 1.6em;
+}
+
+#main_text {
+	background-image: url("../../mbouzi.github.io/imgs/main_site_img.jpg");
+	padding-bottom: 5em;
+	border: solid;
+	border-top-width: .2em;
+	margin-left: -.2em;
+	border-top-color: #8d8b6f;
+	border-bottom-width: .2em;
+	border-bottom-color: #3c666a;
+	margin-right: -1em;
+}
+
+#words {
+	margin-top: -5.4em;
+	transition: .7s ease;
+	opacity: .1;
+	text-shadow: .1px .1px black;
+}
+
+#words:hover {
+	opacity: 1;
+}
+
+#welcome {
+	font-size: 1em;
+	margin-bottom: -1.4em;
+}
+
+#name {
+	text-decoration: underline;
+}
+
+#goal {
+	font-size: .5em;
+	margin-top: 2.0em;
+}
+
+p {
+	margin-bottom: -1em;
+}
+
+ /* {
+	margin-bottom: -.5em;
+	position: absolute;
+	text-align: center;
+	left: 10.5em;
+	margin-top: 1.7em;
+	margin-left: -3.5em;
+	color: #ffdda2;
+}
+
+h3 {
+	text-decoration: underline;
+	margin-bottom: -.5em;
+	position: absolute;
+	text-align: center;
+	left: 12.5em;
+	margin-top: 3.4em;
+	margin-left: -4.5em;
+	color: #ffdda2;
+}
+
+h4 {
+	position: absolute;
+	text-align: center;
+	left: 10.5em;
+	margin-top: 5.3em;
+	margin-left: -3.5em;
+	color: #ffdda2;
+}*/
+
+
+#studio {
+	margin-right: -1em;
+	margin-left: -.5em;
+	position: absolute;
+	left: 0;
+	border: solid;
+	border-top-width: .4em;
+	border-bottom-width: .4em;
+	border-bottom-color: #3f899b;
+}
+
+#studio:hover {
+	opacity: .4;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 13em;
+	margin-bottom: 1.0em;
+	width: 40%;
+	margin-left: 22em;
+	/*width: 106.5%;
+	background-color: black;*/
+}
+
+footer:hover {
+	
+}
+
+#twitter {
+	margin-bottom: .15em;
+}
+
+#twitter:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#google {
+	margin-bottom: .16em;
+}
+
+#google:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#linkedin:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#facebook:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#github:hover {
+	border: outset;
+	border-color: gray;
+}
+	
+
+#the_gram:hover {
+	border: outset;
+	border-color: gray;
+}
+
+
