@@ -6,7 +6,7 @@ header {
 	padding-bottom: 2.4em;
 	margin-left: -.47em;
 	margin-top: -7.2em;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.92);
 	border-bottom: inset;
 }
 
@@ -114,14 +114,21 @@ li:active {
 
 #kitchen {
 	width: 90%;
+	border-bottom: 2px groove;
+	font-family: 'Vollkorn', serif;
 }
 
 .chef {
 	font-family: 'Vollkorn', serif;
 }
 
-.read_more:hover {
+#read_more {
+	color: #014b5d;
+	text-decoration: none;
+}
+
+#read_more:hover {
 	text-decoration: underline;
-	color: #3c666a;
+	color: #cecea2;
 	transition: .4s ease;
 }
