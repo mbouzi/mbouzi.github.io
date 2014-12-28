@@ -2,13 +2,12 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 1000;
-	margin-top: -7em;
-	padding-bottom: 2.4em;
+	padding-bottom: 2.0em;
 	margin-left: -.47em;
 	margin-top: -7.2em;
 	background-color: rgba(255, 255, 255, 0.92);
-
 	border-bottom: inset;
+	margin-bottom: -5em;
 }
 
 #home_icon {
@@ -30,63 +29,61 @@ header {
 	text-decoration: underline;
 	margin-left: .3em;
 	margin-top: -1.6em;
-	margin-bottom: -.5em;
-}
-
-nav {
-	display: block;
-	float: right;
-	margin-top: -1.5em;
+	margin-bottom: -1.7em;
+	padding-bottom: .5em;
 }
 
 ul {
 	font-family: 'Vollkorn', serif;
 	font-size: 1.3em;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	margin-right: 1.5em;
-	margin-top: .4em;
 	color: #014b5d;
-}
-
-li {
 	list-style: none;
-	display: inline;
-	padding: .4em
+	margin-bottom: 2.4em;
+	margin-top: 1.45em;
 }
 
-li:hover {
-	text-decoration: underline;
+ul li {
+	display: inline-block;
+	float: right;
+	margin-right: 1.5em;
+	margin-top: -.2em;
+}
+
+
+ul li a{
+    padding: 5px 10px;
+    color: #014b5d;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
 	color: #cecea2;
-	transition: .4s ease;
+	transition: .4s ease
 }
 
-#blogs {
+ul li ul{
+    display: none;
+}
+
+ul li:hover ul{
 	display: block;
+    padding: 5px 10px;;
+    font-size: .6em;
+    margin-top: -1.5em;
 }
 
-#blog:hover {
-
+#options1 {
+	margin-left: -5.8em;
+	margin-top: 1.2em;
+	margin-right: -.58em;
 }
 
-li:active {
-	text-shadow: 1px 1px black;
-}
-
-#options {
-	display: block;
-}
-
-#header1 {
-	color: #014b5d;
-	text-decoration: none;
-}
-
-#header1:hover {
-	text-decoration: underline;
-	color: #cecea2;
-	transition: .4s ease;
+#options2 {
+	margin-left: -4em;
+	margin-top: 2.5em;
+	margin-right: -1.1em;
+	margin-bottom: -.7em;
 }
 
 #main_img {
@@ -205,12 +202,15 @@ footer:hover {
 }
 
 #twitter {
-	margin-bottom: .15em;
+	margin-bottom: .1em;
 }
 
 #twitter:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
+}
+
+#twitter:active{
+	-webkit-filter: invert(10%);
 }
 
 #google {
@@ -218,28 +218,50 @@ footer:hover {
 }
 
 #google:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
+}
+
+#google:active{
+	-webkit-filter: invert(10%);
+}
+
+#linkedin {
+	margin-bottom: .18em
 }
 
 #linkedin:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
+}
+
+#linkedin:active{
+	-webkit-filter: invert(10%);
 }
 
 #facebook:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
+}
+
+#facebook:active{
+	-webkit-filter: invert(10%);
+}
+
+#github {
+	margin-bottom: -.1em
 }
 
 #github:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
 }
-	
+
+#github:active{
+	-webkit-filter: invert(10%);
+}
 
 #the_gram:hover {
-	border: outset;
-	border-color: gray;
+	-webkit-filter: invert(50%);
+}
+
+#the_gram:active{
+	-webkit-filter: invert(10%);
 }
 
