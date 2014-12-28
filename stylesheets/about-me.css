@@ -1,0 +1,202 @@
+body {
+	background-image: url("../../mbouzi.github.io/imgs/Aboutme.jpg"); 
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	margin-top: -7em;
+	background-color: white;
+	margin-left: -.47em;
+	margin-top: -13em;
+	background-color: white;
+	border-bottom: inset;
+	opacity: .9;
+}
+
+#home_icon {
+	width: 85px;
+	height: 85px;
+	-webkit-border-radius: 150px;
+	margin-left: .2em;
+	margin-top: .1em;
+}
+
+#home_icon:hover {
+	opacity: .4;
+	background-color: black;
+}
+
+#mb {
+	font-family: Gill Sans, sans-serif;
+	font-size: 3em;
+	text-decoration: underline;
+	margin-left: .3em;
+	margin-top: -1.6em;
+	margin-bottom: -.1em;
+	padding-bottom: .7em;
+}
+
+nav {
+	display: block;
+	float: right;
+	margin-bottom: -1em;
+}
+
+ul {
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-right: 1.5em;
+	margin-top: -3.5em;
+	color: #014b5d;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding: .4em
+}
+
+
+li:hover {
+	text-decoration: underline;
+	color: #cecea2;
+	transition: .4s ease;
+}
+
+li:active {
+	text-shadow: 1px 1px black;
+}
+
+#blogs {
+	opacity: 0;
+	display: none
+	webkit-transiton: opacity 0.2s;
+	moz-transition: opacity 0.2s;
+	ms-transition: opacity 0.2s;
+	o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+	margin-bottom: .4em;
+}
+
+#blogs:hover {
+	opacity: 1;
+	display: block
+}
+
+#options {
+	display: block;
+	margin-left: 11.55em;
+	font-size: .5em;
+	margin-top: -1.3em;
+	margin-bottom: -.9em;
+}
+
+#options:hover {
+	visibility: visible;
+}
+
+#options2 {
+	margin-left: 11.5em;
+	font-size: .5em;
+	margin-top: -1.8em;
+	margin-bottom: -4em;
+}
+
+#options2#hover {
+	visibility: visible;
+}
+
+#header1 {
+	color: #014b5d;
+	text-decoration: none;
+}
+
+#header1:hover {
+	text-decoration: underline;
+	color: #cecea2;
+	transition: .4s ease;
+}
+
+.chef {
+	font-family: 'Vollkorn', serif;
+	color: white;
+	margin-top: 13em;
+	width: 40%;
+}
+
+{}
+
+
+footer {
+	text-align: center;
+	margin-top: 20em;
+	margin-bottom: 1.0em;
+	width: 40%;
+	margin-left: 22em;
+	/*width: 106.5%;
+	background-color: black;
+	margin-bottom: -10em;
+	margin-left: -.5em;*/
+}
+
+footer:hover {
+	
+}
+
+#twitter {
+	margin-bottom: .15em;
+}
+
+#twitter:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#google {
+	margin-bottom: .16em;
+}
+
+#google:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#linkedin {
+}
+
+#linkedin:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#facebook {
+}
+
+#facebook:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#github {
+}
+
+#github:hover {
+	border: outset;
+	border-color: gray;
+}
+	
+#the_gram {
+	
+}	
+
+#the_gram:hover {
+	border: outset;
+	border-color: gray;
+}
+
+
