@@ -7,6 +7,7 @@ header {
 	margin-left: -.47em;
 	margin-top: -7.2em;
 	background-color: rgba(255, 255, 255, 0.92);
+
 	border-bottom: inset;
 }
 
@@ -77,7 +78,36 @@ li:active {
 	display: block;
 }
 
+#header1 {
+	color: #014b5d;
+	text-decoration: none;
+}
+
+#header1:hover {
+	text-decoration: underline;
+	color: #cecea2;
+	transition: .4s ease;
+}
+
 #main_img {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 4.5em;
+	font-style: bold;
+	color: white;
+	margin-top: 1.6em;
+}
+
+#technical_img {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 4.5em;
+	font-style: bold;
+	color: white;
+	margin-top: 1.6em;
+}
+
+#cultural_img {
 	font-family: 'Vollkorn', serif;
 	text-align: center;
 	font-size: 4.5em;
@@ -98,13 +128,37 @@ li:active {
 	margin-right: -1em;
 }
 
+#technical_text {
+	background-image: url("../../mbouzi.github.io/imgs/technical.jpg");
+	padding-bottom: 6.5em;
+	border: solid;
+	border-top-width: .2em;
+	margin-left: -.5em;
+	border-top-color: #8d8b6f;
+	border-bottom-width: .2em;
+	border-bottom-color: #3c666a;
+	margin-right: -1em;
+}
+
+#cultural_text {
+	background-image: url("../../mbouzi.github.io/imgs/cultural.jpg");
+	padding-bottom: 6.5em;
+	border: solid;
+	border-top-width: .2em;
+	margin-left: -.5em;
+	border-top-color: #8d8b6f;
+	border-bottom-width: .2em;
+	border-bottom-color: #3c666a;
+	margin-right: -1em;
+}
+
 #words {
 	margin-top: -5.4em;
 	transition: .7s ease;
 	opacity: .1;
 	text-shadow: 3px 3px black;
 	font-size: 2em;
-	padding-top: 2.5em;
+	padding-top: 2.0em;
 	font-family: 'Vollkorn', serif;
 }
 
@@ -116,6 +170,7 @@ li:active {
 	width: 90%;
 	border-bottom: 2px groove;
 	font-family: 'Vollkorn', serif;
+	padding-top: 2em;
 }
 
 .chef {
@@ -132,3 +187,59 @@ li:active {
 	color: #cecea2;
 	transition: .4s ease;
 }
+
+footer {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1.0em;
+	width: 40%;
+	margin-left: 22em;
+	/*width: 106.5%;
+	background-color: black;
+	margin-bottom: -10em;
+	margin-left: -.5em;*/
+}
+
+footer:hover {
+	
+}
+
+#twitter {
+	margin-bottom: .15em;
+}
+
+#twitter:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#google {
+	margin-bottom: .16em;
+}
+
+#google:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#linkedin:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#facebook:hover {
+	border: outset;
+	border-color: gray;
+}
+
+#github:hover {
+	border: outset;
+	border-color: gray;
+}
+	
+
+#the_gram:hover {
+	border: outset;
+	border-color: gray;
+}
+
