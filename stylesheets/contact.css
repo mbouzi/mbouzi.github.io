@@ -96,19 +96,27 @@ ul li:hover ul{
 	color: white;
 	margin-top: -7em;
 	width: 50%;
-	margin-left: 18em;
-	background-color: rgba(253, 253, 253, 0.04); 
+	margin-left: 27em;
 	padding-bottom: 2em;
-	padding-left: 1.3em;
+	padding-left: 2em;
 	position: fixed;
+	background-color: rgba(253, 253, 253, 0.14);
+	font-size: 1.2em;
 }
 
 h2 {
-	margin-left: 9.5em;
+	margin-left: 5.3em;
 }
 
-{}
+h4 {
+	margin-left: 11.0em;
+}
 
+#below {
+	margin-left: 11.7em;
+	margin-top: -1em;
+	margin-bottom: -1em;
+}
 
 footer {
 	text-align: center;
@@ -117,6 +125,7 @@ footer {
 	width: 40%;
 	margin-left: 22em;
 	padding-top: 30em;
+	-webkit-filter: invert(100%);
 	/*width: 106.5%;
 	background-color: black;
 	margin-bottom: -10em;
@@ -128,7 +137,7 @@ footer {
 }
 
 #twitter:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 
 #twitter:active{
@@ -140,7 +149,7 @@ footer {
 }
 
 #google:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 
 #google:active{
@@ -152,7 +161,7 @@ footer {
 }
 
 #linkedin:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 
 #linkedin:active{
@@ -160,7 +169,7 @@ footer {
 }
 
 #facebook:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 
 #facebook:active{
@@ -172,7 +181,7 @@ footer {
 }
 
 #github:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 	
 #github:active{
@@ -180,7 +189,7 @@ footer {
 }	
 
 #the_gram:hover {
-	-webkit-filter: invert(50%);
+	-webkit-filter: invert(100%);
 }
 
 #the_gram:active{
