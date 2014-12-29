@@ -114,7 +114,7 @@ ul li:hover ul{
 }
 
 #main_text {
-	background-image: url("../imgs/vinly.jpg");
+	background-image: url("../imgs/vinly.JPG");
 	padding-bottom: 5em;
 	border: solid;
 	border-top-width: .2em;
@@ -126,7 +126,7 @@ ul li:hover ul{
 }
 
 #technical_text {
-	background-image: url("../imgs/technical.jpg");
+	background-image: url("../imgs/technical.JPG");
 	padding-bottom: 6.5em;
 	border: solid;
 	border-top-width: .2em;
@@ -138,7 +138,7 @@ ul li:hover ul{
 }
 
 #cultural_text {
-	background-image: url("../imgs/cultural.jpg");
+	background-image: url("../imgs/cultural.JPG");
 	padding-bottom: 6.5em;
 	border: solid;
 	border-top-width: .2em;
