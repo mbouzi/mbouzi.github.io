@@ -59,12 +59,12 @@ ul li a{
     padding: 5px 10px;
     color: #014b5d;
     text-decoration: none;
+    transition: .4s ease-in-out;
 }
 
 ul li a:hover{
     text-decoration: underline;
 	color: #cecea2;
-	transition: .4s ease
 }
 
 ul li ul{
@@ -96,11 +96,15 @@ ul li:hover ul{
 	color: white;
 	margin-top: -7em;
 	width: 50%;
-	margin-left: 18em;
-	background-color: rgba(253, 253, 253, 0.04); 
+	margin-left: 18em; 
 	padding-bottom: 2em;
 	padding-left: 1.3em;
 	position: fixed;
+	transition: .4s ease-in-out;
+}
+
+.chef:hover {
+	background-color: rgba(253, 253, 253, 0.11);
 }
 
 h2 {

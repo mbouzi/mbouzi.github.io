@@ -56,12 +56,12 @@ ul li a{
     padding: 5px 10px;
     color: #014b5d;
     text-decoration: none;
+    transition: .4s ease-in-out;
 }
 
 ul li a:hover{
     text-decoration: underline;
 	color: #cecea2;
-	transition: .4s ease
 }
 
 ul li ul{
