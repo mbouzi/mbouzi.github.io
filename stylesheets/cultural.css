@@ -114,7 +114,7 @@ ul li:hover ul{
 }
 
 #main_text {
-	background-image: url("../../mbouzi.github.io/imgs/vinyl.jpg");
+	background-image: url("../../imgs/vinyl.jpg");
 	padding-bottom: 5em;
 	border: solid;
 	border-top-width: .2em;
@@ -126,7 +126,7 @@ ul li:hover ul{
 }
 
 #technical_text {
-	background-image: url("../../mbouzi.github.io/imgs/technical.jpg");
+	background-image: url("../imgs/technical.jpg");
 	padding-bottom: 6.5em;
 	border: solid;
 	border-top-width: .2em;
@@ -138,7 +138,7 @@ ul li:hover ul{
 }
 
 #cultural_text {
-	background-image: url("../../mbouzi.github.io/imgs/cultural.jpg");
+	background-image: url("../imgs/cultural.jpg");
 	padding-bottom: 6.5em;
 	border: solid;
 	border-top-width: .2em;
