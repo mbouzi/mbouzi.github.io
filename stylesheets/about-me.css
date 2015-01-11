@@ -1,5 +1,6 @@
 body {
 	background-image: url("../imgs/Aboutme.JPG");
+	margin-left: 2em
 }
 
 header {
@@ -8,7 +9,7 @@ header {
 	z-index: 1000;
 	margin-top: -7em;
 	background-color: white;
-	margin-left: -.47em;
+	margin-left: -2em;
 	margin-top: -20em;
 	background-color: white;
 	border-bottom: inset;
@@ -95,23 +96,48 @@ ul li:hover ul{
 	font-family: 'Vollkorn', serif;
 	color: white;
 	margin-top: -7em;
-	width: 50%;
-	margin-left: 18em; 
+	margin-left: 14.0em;
 	padding-bottom: 2em;
 	padding-left: 1.3em;
-	position: fixed;
+	position: absolute;
 	transition: .4s ease-in-out;
+	height: 100%;
 }
 
-.chef:hover {
-	background-color: rgba(253, 253, 253, 0.11);
-}
 
 h2 {
-	margin-left: 9.5em;
+	margin-left: 10.8em;
+	margin-top: 1em;
+	margin-bottom: -.5em;
 }
 
-{}
+#triangle {
+	
+	width: 0;
+	height: 0;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-top: 600px solid rgba(210, 180, 140, 0);
+	margin-top: -7em;
+	margin-left: 10em;
+	transition: .4s ease-in-out;
+	z-index: 10;
+	position: absolute;
+		
+}
+
+#triangle:hover {
+	border-top: 500px solid rgba(253, 253, 253, 0.11);
+}
+
+.indent {
+	text-align: center;
+	margin-bottom: -1em;
+}
+
+#container {
+    position: relative;
+}
 
 
 footer {
