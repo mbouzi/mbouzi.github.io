@@ -110,9 +110,9 @@ ul li:hover ul{
 	transition: .7s ease;
 }
 
-#main_text:hover {
+/*#main_text:hover {
 	opacity:.7;
-}
+}*/
 
 #words {
 	margin-top: -5.4em;
