@@ -127,7 +127,7 @@ h2 {
 }
 
 #triangle:hover {
-	border-top: 500px solid rgba(253, 253, 253, 0.11);
+	border-top: 500px solid rgba(253, 253, 253, 0.32);
 }
 
 .indent {
