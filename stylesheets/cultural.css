@@ -153,10 +153,17 @@ ul li:hover ul{
 	font-size: 2em;
 	font-family: 'Vollkorn', serif;
 	padding-top: 7.1em;
+	text-decoration: none;
+	color: white;
 }
 
 #words:hover {
 	opacity: 1;
+}
+
+#cultural {
+	text-decoration: none;
+	color: white;
 }
 
 #kitchen {
