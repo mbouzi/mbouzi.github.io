@@ -30,6 +30,10 @@ header {
 	margin-top: -1.6em;
 }
 
+body div{
+	display: none;
+}
+
 ul {
 	font-family: 'Vollkorn', serif;
 	font-size: 1.3em;
@@ -109,7 +113,6 @@ ul li:hover ul{
 	margin-right: auto;
 	margin-left: auto;
 	transition: .7s ease;
-	width: 100%;
 }
 
 /*#main_text:hover {
@@ -265,13 +268,39 @@ header {
 	margin-top: -1.6em;
 }
 
+body div{
+	display: block;
+	margin-left: 22em;
+	margin-bottom: 2em;
+	opacity: .4;
+	margin-top: .5em;
+	background-color: white; 
+}
+
+body div:hover{
+	opacity: .6;
+	background-opacity: .8;
+
+}
+
+body div img ul li {
+	display: none;
+}
+
+body div ul:hover{
+	display: block;
+}
+
 ul {
 	font-family: 'Vollkorn', serif;
 	font-size: 1.3em;
 	color: #014b5d;
 	list-style: none;
 	margin-bottom: 3.5em;
+	display: none;
+	margin-top: .5em;
 	/*padding: .4em*/
+
 }
 
 ul li a:active{
@@ -343,7 +372,7 @@ ul li:hover ul{
 	border-bottom-color: #3c666a;
 	margin-right: -1em;
 	transition: .7s ease;
-	width: 101.5%;
+	width: 105.5%;
 }
 
 /*#main_text:hover {
@@ -351,15 +380,12 @@ ul li:hover ul{
 }*/
 
 #words {
-	margin-top: -6em;
+	margin-top: -6.4em;
 	transition: .7s ease;
-	opacity: .1;
+	opacity: 1;
 	text-shadow: .1px .1px black;
 }
 
-#words:hover {
-	opacity: 1;
-}
 
 #welcome {
 	font-size: 1em;
@@ -381,7 +407,7 @@ p {
 
 footer {
 	text-align: center;
-	margin-top: 7em;
+	margin-top: 6em;
 	margin-bottom: 1.5em;
 	width: 100%;
 	margin-left: auto;
