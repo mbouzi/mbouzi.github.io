@@ -108,6 +108,7 @@ ul li:hover ul{
 	border-bottom-color: #3c666a;
 	margin-right: -1em;
 	transition: .7s ease;
+	width: 101.5%;
 }
 
 /*#main_text:hover {
@@ -147,7 +148,7 @@ footer {
 	text-align: center;
 	margin-top: 10em;
 	margin-bottom: 1.5em;
-	width: 40%;
+	width: 45%;
 	margin-left: 22em;
 	/*width: 106.5%;
 	background-color: black;
