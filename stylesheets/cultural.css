@@ -177,15 +177,19 @@ ul li:hover ul{
 	font-family: 'Vollkorn', serif;
 }
 
-#read_more {
+.read_more {
 	color: #014b5d;
 	text-decoration: none;
 }
 
-#read_more:hover {
+.read_more:hover {
 	text-decoration: underline;
 	color: #cecea2;
 	transition: .4s ease;
+}
+
+h6 {
+	margin-top: -1.6em
 }
 
 
