@@ -235,7 +235,7 @@ footer {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
 header {
 	width: 100%;
 	position: fixed;
@@ -288,14 +288,13 @@ body div ul {
 	font-size: 1em;
 	display: none;
 	width: 100%;
-	margin-left: -3.4em;
+	margin-left: -6.4em;
 	opacity: 1;
 }
 
 body div:hover ul{
 	display: list-item;
 	width: 100%;
-	float: left;
 	font: 1em;
 }
 
@@ -306,7 +305,7 @@ body div ul li ul{
 
 .options {
 	margin-right: -18em;
-	width: 184%
+	width: 119%;
 }
 
 #options3 {
@@ -419,6 +418,8 @@ ul li:hover ul{
 	opacity: 1;
 	text-shadow: .1px .1px black;
 	font-size: .8em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
