@@ -305,7 +305,7 @@ body div ul li ul{
 
 .options {
 	margin-right: -17em;
-	width: 200%;
+	width: 100%;
 }
 
 #options3 {
@@ -431,9 +431,7 @@ ul li:hover ul{
 }
 
 #name {
-	border-bottom: 1px solid white;
-	padding-bottom: .4em;
-}
+	}
 
 #goal {
 	font-size: .5em;
