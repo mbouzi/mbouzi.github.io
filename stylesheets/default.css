@@ -116,6 +116,7 @@ ul li:hover ul{
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
+	background-repeat: repeat-y;
 }
 
 /*#main_text:hover {
