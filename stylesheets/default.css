@@ -895,7 +895,7 @@ body div ul {
 	opacity: 1;
 }
 
-body div:active ul{
+body div:hover ul{
 	display: list-item;
 	width: 100%;
 	font: 1em;
