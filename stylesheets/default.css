@@ -418,8 +418,9 @@ ul li:hover ul{
 	opacity: 1;
 	text-shadow: .1px .1px black;
 	font-size: .4em;
-	width: 50%;
-	margin-left: 1.4em;
+	width: 100%;
+	margin-right: 8.4em;
+	margin-left: -1.5em;
 }
 
 
