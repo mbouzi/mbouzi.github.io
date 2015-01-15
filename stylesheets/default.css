@@ -426,15 +426,21 @@ ul li:hover ul{
 #welcome {
 	font-size: 1em;
 	margin-bottom: -1.4em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #name {
 	text-decoration: underline;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #goal {
 	font-size: .5em;
 	margin-top: 2.0em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {
