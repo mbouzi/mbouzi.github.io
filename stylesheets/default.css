@@ -112,9 +112,10 @@ ul li:hover ul{
 	border-top-color: #8d8b6f;
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
-	margin-right: auto;
-	margin-left: auto;
 	transition: .7s ease;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
 }
 
 /*#main_text:hover {
