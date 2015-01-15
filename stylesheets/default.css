@@ -114,6 +114,7 @@ ul li:hover ul{
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
 	background-size: 100%;
+	background-repeat: repeat-y;
 }
 
 /*#main_text:hover {
