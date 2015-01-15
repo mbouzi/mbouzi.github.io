@@ -402,13 +402,11 @@ ul li:hover ul{
 	padding-bottom: 5em;
 	border: solid;
 	border-top-width: .2em;
-	margin-left: -.2em;
 	border-top-color: #8d8b6f;
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
-	margin-right: -1em;
 	transition: .7s ease;
-	width: 50%;
+	width: 100%;
 }
 
 /*#main_text:hover {
