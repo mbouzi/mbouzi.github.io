@@ -701,9 +701,6 @@ ul li:hover ul{
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
 }
 
 /*#main_text:hover {
@@ -1008,9 +1005,6 @@ ul li:hover ul{
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
 }
 
 /*#main_text:hover {
