@@ -1167,19 +1167,101 @@ footer {
 }
 
 body div{
-	display: none;
+	display: block;
+	margin-right: 1em;
+	margin-bottom: 1.3em;		    
+	opacity: .4;
+	margin-top: .5em; 
+	background-color: white; 
+	float: right;
 }
+
+#buttin {
+	margin-left: 2em;
+}
+
+body div:hover{
+	opacity: .6;
+	background-opacity: .8;
+	margin-left: 25.2em
+
+}
+
+div img {
+	margin-left: 6em;
+}
+
+
+body div ul {
+	display: none;
+	font-size: 1em;
+	display: none;
+	width: 100%;
+	margin-left: -.8em;
+	margin-right: .4em;
+	opacity: 1;
+}
+
+body div:hover ul{
+	display: list-item;
+	width: 100%;
+	font: 1em;
+}
+
+body div ul li ul{
+    display: none;
+}
+
+
+.options {
+	margin-right: -10em;
+	width: 100%;
+	float: right;
+}
+
+#options3 {
+	margin-right: -8.0em;
+	margin-top: 1em
+}
+
+#options2 {
+	margin-right: 0.4em;
+	margin-top: -.1em;
+	margin-bottom: .08em;
+}
+
+#options1 {
+	margin-right: -.21em;
+	margin-bottom: .02em;
+	margin-top: -.2em;
+}
+
+/*#options1:hover{
+	display: block;
+    padding: 5px 10px;;
+    font-size: .6em;
+    margin-top: -1.5em;
+}
+  */
+
 
 ul {
 	font-family: 'Vollkorn', serif;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #014b5d;
 	list-style: none;
-	margin-bottom: 3.5em;
+	margin-bottom: .5em;
+	display: none;
+	margin-top: .5em;
 	/*padding: .4em*/
 }
 
-ul li a:active{
+#biglist {
+	display: none;
+}
+
+
+/*ul li a:active{
 	color: white;
 }
 
@@ -1214,7 +1296,7 @@ ul li:hover ul{
     padding: 5px 10px;;
     font-size: .6em;
     margin-top: -1.5em;
-}
+}*/
 
 #options1 {
 	margin-left: -5em;
