@@ -345,7 +345,7 @@ ul {
 }
 
 #biglist {
-	display: none;
+	/* display: none; */
 }
 
 /*ul li a:active{
@@ -529,7 +529,7 @@ footer {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (min-width: 321px) {
 header {
 	width: 100%;
 	position: fixed;
