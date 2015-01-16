@@ -467,28 +467,51 @@ ul li:hover ul{
 }*/
 
 
-#main_img {
+
+#cultural_img {
 	font-family: 'Vollkorn', serif;
 	text-align: center;
 	font-size: 4.5em;
-	font-style: bold;
 	color: white;
 	margin-top: 1.6em;
 }
 
-#main_text {
-	background:rgba(217, 217, 217, 1) url("../../imgs/main_site_img.jpg");
-	padding-bottom: 5em;
+#cultural_text {
+	background-image: url("../imgs/cultural.JPG");
+	padding-bottom: 6.5em;
 	border: solid;
 	border-top-width: .2em;
-	margin-left: -.2em;
+	margin-left: -.5em;
 	border-top-color: #8d8b6f;
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
-	transition: .7s ease;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+	margin-right: -1em;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+}
+
+#technical_img {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	font-size: 4.5em;
+	color: white;
+	margin-top: 1.6em;
+}
+
+#technical_text {
+	background-image: url("../imgs/technical.JPG");
+	padding-bottom: 4.5em;
+	border: solid;
+	border-top-width: .2em;
+	margin-left: -.5em;
+	border-top-color: #8d8b6f;
+	border-bottom-width: .2em;
+	border-bottom-color: #3c666a;
+	margin-right: -1em;
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
 }
 
 /*#main_text:hover {
@@ -496,7 +519,7 @@ ul li:hover ul{
 }*/
 
 #words {
-	margin-top: -12em;
+	margin-top: -11.1em;
 	transition: .7s ease;
 	opacity: 1;
 	text-shadow: .1px .1px black;
@@ -504,7 +527,7 @@ ul li:hover ul{
 	width: 100%;
 	margin-left: 0.4em;
 	text-align: center;
-	margin-bottom: 2.5em;
+	margin-bottom: 1.7em;
 	
 }
 
