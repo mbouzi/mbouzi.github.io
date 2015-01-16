@@ -420,7 +420,10 @@ ul li:hover ul{
 	border-top-color: #8d8b6f;
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
+	margin-right: -1em;
 	transition: .7s ease;
+	width: 105.5%;
+	background-position: center;
 }
 
 /*#main_text:hover {
@@ -498,7 +501,7 @@ footer {
 }
 
 #linkedin {
-	margin-bottom: .12em;
+	margin-bottom: .01em;
 }
 
 #linkedin:hover {

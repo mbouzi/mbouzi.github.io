@@ -478,7 +478,7 @@ ul li:hover ul{
 
 #cultural_text {
 	background-image: url("../imgs/cultural.JPG");
-	padding-bottom: 6.5em;
+	padding-bottom: 4.3em;
 	border: solid;
 	border-top-width: .2em;
 	margin-left: -.5em;
@@ -501,7 +501,7 @@ ul li:hover ul{
 
 #technical_text {
 	background-image: url("../imgs/technical.JPG");
-	padding-bottom: 4.5em;
+	padding-bottom: 4.1em;
 	border: solid;
 	border-top-width: .2em;
 	margin-left: -.5em;
