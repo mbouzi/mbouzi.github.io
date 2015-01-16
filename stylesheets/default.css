@@ -1038,7 +1038,6 @@ ul li:hover ul{
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
 	background-repeat: no-repeat;
-	background-size: contain;
 	background-position: center;
 
 }
@@ -1375,7 +1374,6 @@ ul li:hover ul{
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
 	background-repeat: no-repeat;
-	background-size: contain;
 	background-position: center;
 
 }
