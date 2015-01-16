@@ -1031,7 +1031,7 @@ ul li:hover ul{
 }
 
 #main_text {
-	background-image: url("../../imgs/main_site_img.jpg");
+	background:gray url("../../imgs/main_site_img.jpg");
 	padding-bottom: 5em;
 	border: solid;
 	border-top-width: .2em;
