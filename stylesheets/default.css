@@ -116,8 +116,6 @@ ul li:hover ul{
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
-
-
 }
 
 /*#main_text:hover {
@@ -194,7 +192,7 @@ footer {
 }
 
 #linkedin {
-	margin-bottom: .1em;
+	/*margin-bottom: .1em;*/
 }
 
 #linkedin:hover {
@@ -1031,7 +1029,7 @@ ul li:hover ul{
 }
 
 #main_text {
-	background:gray url("../../imgs/main_site_img.jpg");
+	background:rgba(217, 217, 217, 1) url("../../imgs/main_site_img.jpg");
 	padding-bottom: 5em;
 	border: solid;
 	border-top-width: .2em;
