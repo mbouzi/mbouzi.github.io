@@ -197,8 +197,9 @@ footer {
 	text-align: center;
 	margin-top: 1em;
 	margin-bottom: 1.0em;
-	width: 40%;
-	margin-left: 22em;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	/*width: 106.5%;
 	background-color: black;
 	margin-bottom: -10em;

@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	background-size: 100%;
 
 }
 
@@ -13,7 +14,7 @@ body {
 
 #content {
 	margin-top: 8em;
-	margin-left: -8em;
+	margin-left: -5em;
 	padding: 100px;
 	position: fixed;
 	width: 100%
@@ -158,11 +159,11 @@ h4 {
 
 footer {
 	text-align: center;
-	margin-top: 45em;
-	margin-bottom: 1.0em;
-	width: 40%;
-	margin-left: 22em;
-	padding-top: 2em;
+	margin-top: 46em;
+	margin-bottom: 1.5em;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	-webkit-filter: invert(100%);
 	/*width: 106.5%;
 	background-color: black;
@@ -215,7 +216,7 @@ footer {
 }
 
 #github {
-	margin-bottom: -.08em;
+	margin-bottom: -.09em;
 }
 
 #github:hover {
