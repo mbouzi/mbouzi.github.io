@@ -1,3 +1,4 @@
+
 header {
 	width: 100%;
 	position: fixed;
@@ -12,7 +13,7 @@ header {
 #home_icon {
 	width: 85px;
 	height: 85px;
-	-webkit-border-radius: 150px;
+	-webkit-border-radius: 100px;
 	margin-left: .2em;
 	margin-top: .1em;
 }
@@ -57,7 +58,7 @@ ul li {
 
 
 ul li a{
-    padding: 5px 10px;
+    padding: 5px 5px;
     color: #014b5d;
     text-decoration: none;
     transition: .4s ease-in-out;
@@ -101,6 +102,8 @@ ul li:hover ul{
 	font-style: bold;
 	color: white;
 	margin-top: 1.6em;
+	
+	
 }
 
 #main_text {
@@ -113,6 +116,8 @@ ul li:hover ul{
 	border-bottom-width: .2em;
 	border-bottom-color: #3c666a;
 	transition: .7s ease;
+
+
 }
 
 /*#main_text:hover {
@@ -432,11 +437,12 @@ ul li:hover ul{
 }
 
 #name {
+	text-decoration: none;
 	}
 
 #goal {
 	font-size: .5em;
-	margin-top: 2.0em;
+	margin-top: 1.0em;
 }
 
 p {
