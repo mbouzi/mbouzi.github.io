@@ -438,6 +438,7 @@ ul li:hover ul{
 
 #name {
 	text-decoration: none;
+	margin-top: 1.2em;
 	}
 
 #goal {
@@ -830,7 +831,7 @@ footer {
 
 
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 570px) and (min-width: 376px) {
 header {
 	width: 100%;
 	position: fixed;
@@ -1138,7 +1139,7 @@ footer {
 
 
 
-@media screen and (max-width: 620px) and (min-width: 376px) {
+@media screen and (max-width: 620px) and (min-width: 571px) {
 
 	header {
 	width: 100%;
@@ -1361,24 +1362,24 @@ ul li:hover ul{
 #words {
 	margin-top: -7.0em;
 	transition: .7s ease;
-	opacity: .1;
+	opacity: 1;
 	text-shadow: .1px .1px black;
-	margin-right: auto;
-	margin-left: auto;
+	font-size: .6em;
+	width: 100%;
+	margin-right: 8.4em;
+	
 }
 
-#words:hover {
-	opacity: 1;
-}
 
 #welcome {
 	font-size: 1em;
 	margin-bottom: -1.4em;
+	
 }
 
 #name {
 	text-decoration: underline;
-}
+	}
 
 #goal {
 	font-size: .5em;
