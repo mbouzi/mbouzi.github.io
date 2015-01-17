@@ -7,6 +7,8 @@ body {
 
 }
 
+
+
 #wrapper {
 	min-height: 100%;
 	position: relative;
@@ -489,6 +491,7 @@ footer {
 
 
 @media screen and (max-width: 860px) {
+
 
 body {
 	background-image: url("../imgs/Contact.JPG");
