@@ -515,74 +515,95 @@ header {
 	padding-bottom: .7em;
 }
 
-ul {
-	font-family: 'Vollkorn', serif;
-	font-size: 1.3em;
-	color: #014b5d;
-	list-style: none;
-	margin-bottom: 3.5em;
-	/*padding: .4em*/
-}
-
-ul li {
-	display: inline-block;
+body div{
+	display: block;
+	margin-right: 1.2em;
+	margin-bottom: 1.3em;		    
+	opacity: .4;
+	margin-top: .5em; 
+	background-color: white; 
 	float: right;
-	margin-right: 1.5em;
-	margin-top: -.2em;
+}
+
+#button {
+	display: block;
+}
+
+body div:hover{
+	opacity: .6;
+	background-opacity: .8;
+	margin-left: 31.6em;
+	margin-right: 1em;
+
+}
+
+div img {
+	margin-left: 7em;
 }
 
 
-ul li a{
-    padding: 5px 10px;
-    color: #014b5d;
-    text-decoration: none;
-    transition: .4s ease-in-out;
+body div ul {
+	display: none;
+	font-size: 1em;
+	display: none;
+	width: 100%;
+	margin-left: -.6em;
+	margin-right: 1.4em;
+	opacity: 1;
 }
 
-ul li a:hover{
-    text-decoration: underline;
-	color: #cecea2;
+body div:hover ul{
+	display: list-item;
+	width: 100%;
+	font: 1em;
 }
 
-ul li ul{
+body div ul li ul{
     display: none;
 }
 
-ul li:hover ul{
+
+/*.options {
+	margin-right: -10em;
+	width: 100%;
+	float: right;
+}*/
+
+#options3 {
+	margin-right: -4.9em;
+	margin-top: 1em
+}
+
+#options2 {
+	margin-right: -4.72em;
+	margin-top: 2.3em;
+	margin-bottom: .08em;
+}
+
+#options1 {
+	margin-right: -4.72em;
+	margin-bottom: .02em;
+	margin-top: 1em;
+}
+
+/*#options1:hover{
 	display: block;
     padding: 5px 10px;;
     font-size: .6em;
     margin-top: -1.5em;
 }
+  */
 
-#button {
+
+ul {
+	font-family: 'Vollkorn', serif;
+	font-size: 1em;
+	color: #014b5d;
+	list-style: none;
+	margin-bottom: .5em;
 	display: none;
-}
-
-#options1 {
-	margin-left: -5.8em;
-	margin-top: 1.1em;
-	margin-right: -.58em;
-}
-
-#options2 {
-	margin-left: -4em;
-	margin-top: 2.5em;
-	margin-right: -1.1em;
-	margin-bottom: .3em;
-}
-
-#options1 {
-	margin-left: -5.8em;
-	margin-top: 1.1em;
-	margin-right: -.58em;
-}
-
-#options2 {
-	margin-left: -4em;
-	margin-top: 2.5em;
-	margin-right: -1.1em;
-	margin-bottom: .3em;
+	margin-top: .5em;
+	/*padding: .4em*/
 }
 
 .chef {
