@@ -897,7 +897,7 @@ ul {
 .chef {
 	font-family: 'Vollkorn', serif;
 	color: white;
-	margin-top: -2em;
+	margin-top: 0em;
 	width: 50%;
 	margin-left: 22em;
 	padding-bottom: 2em;
@@ -1177,7 +1177,7 @@ ul {
 .chef {
 	font-family: 'Vollkorn', serif;
 	color: white;
-	margin-top: -2em;
+	margin-top: 0em;
 	width: 30%;
 	margin-left: 22em;
 	padding-bottom: 2em;
@@ -1314,7 +1314,7 @@ body {
 	margin-top: 8em;
 	margin-left: -38em;
 	padding: 150px;
-	position: fixed;
+	position: absolute;
 	width: 158%;
 	background-color: black;
 	border-radius: 120%;
@@ -1453,13 +1453,14 @@ ul {
 .chef {
 	font-family: 'Vollkorn', serif;
 	color: white;
-	margin-top: -2em;
+	margin-top: 0em;
 	width: 30%;
 	margin-left: 22em;
 	padding-bottom: 2em;
 	padding-top: .5em;
 	padding-left: 2em;
 	font-size: 1.2em;
+	text-decoration: none;
 }
 
 #chef:hover {
