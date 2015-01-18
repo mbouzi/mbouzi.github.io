@@ -756,10 +756,10 @@ body {
 
 #content {
 	margin-top: 8em;
-	margin-left: -38em;
+	margin-left: -36em;
 	padding: 150px;
 	position: fixed;
-	width: 130%;
+	width: 121%;
 	background-color: black;
 	border-radius: 120%;
 }
@@ -805,10 +805,11 @@ header {
 
 body div{
 	display: block;
-	margin-right: -.2em;
-	margin-bottom: 1.9em;		    
-	background-color: white; 
+	margin-right: -0.2em;
+	margin-bottom: -0.1em;
+	background-color: white;
 	float: right;
+	margin-left: 2em;
 }
 
 #button {
@@ -827,7 +828,7 @@ body div:hover{
 }
 
 div img {
-	margin-left: 7em;
+	margin-left: 20em;
 }
 
 
@@ -901,7 +902,7 @@ ul {
 	width: 50%;
 	margin-left: 22em;
 	padding-bottom: 2em;
-	padding-top: .5em;
+	padding-top: 1.5em;
 	padding-left: 2em;
 	font-size: 1.2em;
 }
@@ -1314,7 +1315,7 @@ body {
 	margin-top: 8em;
 	margin-left: -38em;
 	padding: 150px;
-	position: absolute;
+	position: fixed;
 	width: 158%;
 	background-color: black;
 	border-radius: 120%;
@@ -1333,11 +1334,15 @@ header {
 	background-color: white;
 	padding-right: 1.5em;
 	border-bottom: inset;
-	opacity: .9gi;
+	opacity: .9;
 	padding-bottom: 4.4em;
 }
 
-#home_icon {
+
+
+
+
+/*#home_icon {
 	width: 85px;
 	height: 85px;
 	-webkit-border-radius: 150px;
@@ -1347,6 +1352,7 @@ header {
 
 #home_icon:hover {
 	opacity: .4;
+	background-color: black;
 }
 
 #mb {
@@ -1376,7 +1382,7 @@ body div{
 }
 
 body div:hover{
-	opacity: .6;
+	opacity: .9;
 	margin-left: 25.6em;
 	margin-right: -.4em;
 
@@ -1406,15 +1412,10 @@ body div:hover ul{
 body div ul li ul{
     display: none;
 }
+*/
 
 
-/*.options {
-	margin-right: -10em;
-	width: 100%;
-	float: right;
-}*/
-
-#options3 {
+/*#options3 {
 	margin-right: -4.9em;
 	margin-top: 1em
 }
@@ -1429,15 +1430,8 @@ body div ul li ul{
 	margin-right: -4.72em;
 	margin-bottom: .02em;
 	margin-top: 1em;
-}
+}*/
 
-/*#options1:hover{
-	display: block;
-    padding: 5px 10px;;
-    font-size: .6em;
-    margin-top: -1.5em;
-}
-  */
 
 
 ul {
@@ -1448,8 +1442,8 @@ ul {
 	margin-bottom: .5em;
 	display: none;
 	margin-top: .5em;
-	/*padding: .4em*/
 }
+
 .chef {
 	font-family: 'Vollkorn', serif;
 	color: white;
