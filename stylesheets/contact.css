@@ -755,7 +755,7 @@ body {
 }
 
 #content {
-	margin-top: 8em;
+	margin-top: 5em;
 	margin-left: -36em;
 	padding: 150px;
 	position: fixed;
@@ -777,7 +777,7 @@ header {
 	background-color: white;
 	padding-right: 1.5em;
 	border-bottom: inset;
-	opacity: .9gi;
+	opacity: .9;
 	padding-bottom: 4.4em;
 }
 
@@ -814,7 +814,9 @@ body div{
 
 #button {
 	display: block;
+	opacity: 1
 }
+
 
 #biglist {
 	display: none;
@@ -828,16 +830,19 @@ body div:hover{
 }
 
 div img {
-	margin-left: 20em;
+	margin-left: 9em;
 }
 
+div img:hover {
+	opacity: .6
+}
 
 body div ul {
 	display: none;
 	font-size: 1em;
 	display: none;
 	width: 100%;
-	margin-left: -.6em;
+	margin-left: -.4em;
 	margin-right: 1.4em;
 	opacity: 1;
 }
@@ -853,15 +858,11 @@ body div ul li ul{
 }
 
 
-/*.options {
-	margin-right: -10em;
-	width: 100%;
-	float: right;
-}*/
+
 
 #options3 {
-	margin-right: -4.9em;
-	margin-top: 1em
+	margin-right: -5.1em;
+	margin-top: 1.0em
 }
 
 #options2 {
@@ -900,7 +901,7 @@ ul {
 	color: white;
 	margin-top: 0em;
 	width: 50%;
-	margin-left: 22em;
+	margin-left: 21em;
 	padding-bottom: 2em;
 	padding-top: 1.5em;
 	padding-left: 2em;
@@ -1058,7 +1059,7 @@ header {
 	background-color: white;
 	padding-right: 1.5em;
 	border-bottom: inset;
-	opacity: .9gi;
+	opacity: .9;
 	padding-bottom: 4.4em;
 }
 
@@ -1117,7 +1118,7 @@ body div ul {
 	font-size: 1em;
 	display: none;
 	width: 100%;
-	margin-left: -.6em;
+	margin-left: -.em;
 	margin-right: 1.4em;
 	opacity: 1;
 }
@@ -1133,10 +1134,12 @@ body div ul li ul{
 }
 
 
-/*.options {
-	margin-right: -10em;
-	width: 100%;
+/*ul li {
+	display: inline-block;
 	float: right;
+	margin-right: 1.5em;
+	margin-top: -0.2em;
+	width: 0%;
 }*/
 
 #options3 {
@@ -1315,7 +1318,7 @@ body {
 	margin-top: 8em;
 	margin-left: -38em;
 	padding: 150px;
-	position: fixed;
+	position: absolute;
 	width: 158%;
 	background-color: black;
 	border-radius: 120%;
@@ -1342,7 +1345,7 @@ header {
 
 
 
-/*#home_icon {
+#home_icon {
 	width: 85px;
 	height: 85px;
 	-webkit-border-radius: 150px;
@@ -1403,7 +1406,7 @@ body div ul {
 	opacity: 1;
 }
 
-body div:hover ul{
+/*body div:hover ul{
 	display: list-item;
 	width: 100%;
 	font: 1em;
@@ -1411,8 +1414,8 @@ body div:hover ul{
 
 body div ul li ul{
     display: none;
-}
-*/
+}*/
+
 
 
 /*#options3 {
