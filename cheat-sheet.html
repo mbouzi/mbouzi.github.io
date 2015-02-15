@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset ="UTF-8">
+    <link rel="stylesheet" type="text/css" href= "stylesheets/cheat-sheet.css">
+    <title>
+        Ruby CheatSheet
+    </title>
+</head>
+
+<header>
+   <h1>Ruby Cheat Sheet</h1>
+</header>
+
+<body>
+    <div id = "left">
+        <center><h2>Variables</h2></center>
+            <ul>local</ul>
+            <ul>@instance</ul>
+            <ul>@@class</ul>
+            <ul>CONSTANT</ul>
+            <ul>$global</ul>
+    </div>
+
+     <div class ="clear"></div>
+
+    <div id = "left">
+       <center> <h2>Expressions</h2></center>
+        <ul>if expr [then] elsif expr [then] else end</ul>
+        <ul>unless expr [then] else end</ul>
+        <ul>expr if expr</ul>
+        <ul>expr unless expr</ul>
+        <ul>case expr when comp else end</ul>
+        <ul>while expr do end</ul>
+        <ul>until expr do end</ul>
+        <ul>do while expr</ul>
+        <ul>do until expr</ul>
+        <ul>for var in expr [do] end</ul>
+        <ul>expr.each do end</ul>
+    </div>
+
+    <div class ="clear"></div>
+
+   <div id = "left">
+        <center><h2>String</h2><center>
+        <ul>Str#capitalieze! -> string</ul>
+        <ul>Str#count -> integer</ul>
+        <ul> Str#delete! ([string]) -> string</ul>
+        <ul>Str#downcase! -> string</ul>
+        <ul>Str#gsub! (rgx) do |match| ... end</ul>
+        <ul> Str#include? (str) -> true / false</ul>
+        <ul>Str#insert (int, string) -> string</ul>
+        <ul>Str#length -> integer</ul>
+        <ul> Str#scan (rgx) do |match| ... end</ul>
+        <ul>Str#to_sym -symbol</ul>
+    </div>
+
+
+
+    <div id ="last_three">
+    <div id = "right">
+        <center><h2>Array</h2></center>
+        <ul>Array::new (int [,obj]) => array</ul>
+        <ul>Array#clear</ul>
+        <ul>Array#map! do |x| ... end</ul>
+        <ul>Array#delete (value) => obj or nil</ul>
+        <ul>Array#delete_at (index) => obj or n</ul>
+        <ul>Array#delete_if do |x| ... end</ul>
+        <ul>Array#flatten! => array</ul>
+        <ul>Array#include? (value) => t or f</ul>
+        <ul>Array#insert (idx, obj...) => array</ul>
+        <ul>Array#join ([string]) => string</ul>
+        <ul>Array#length => integer</ul>
+        <ul>Array#pop => obj or nil</ul>
+        <ul>Array#push (obj...) => array</ul>
+    </div>
+
+    <div class ="clear"></div>
+
+    <div id = "right">
+        <center><h2>Hash</h2></center>
+        <ul>Hash#clear</ul>
+        <ul>Hash#delete (key) => obj or nil</ul>
+        <ul>Hash#delete_if do |k, v| ... end</ul>
+        <ul>Hash#each do |k, v| ... end</ul>
+        <ul>Hash#has_key? (k) => true or false</ul>
+        <ul>Hash#has_value? (v) => true or false</ul>
+        <ul>Hash#index (value) => key</ul>
+        <ul>Hash#keys => array</ul>
+        <ul>Hash#length => integer</ul>
+        <ul>Hash#select do |k, v| ... end => array</ul>
+        <ul>Hash#values => array</ul>
+    </div>
+
+    <div class = "clear"></div>
+
+    <div id = "right">
+        <center><h2>Operators</h2></center>
+        <ul>::</ul>
+        <ul>[]</ul>
+        <ul>**</ul>
+        <ul>+ - ! ~</ul>
+        <ul>* / %</ul>
+        <ul><< >></ul>
+        <ul>&</ul>
+        <ul>| ^</ul>
+        <ul>> >= < <=</ul>
+        <ul><=> == === != =~</ul>
+        <ul>&&</ul>
+        <ul>.. ...</ul>
+        <ul>= (+= -=)</ul>
+        <ul>not</ul>
+        <ul>and or</ul>
+        <ul></ul>
+    </div>
+</div>
+    <div class ="clear"></div>
+
+
+</body>
