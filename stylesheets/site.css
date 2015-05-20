@@ -1,6 +1,6 @@
 @font-face { font-family: Delicious; src: url('delicious_[123].sit'); } 
 
-/*#e6af61*/
+/**/
 body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-align: center;
@@ -192,6 +192,7 @@ html {
 .projects {
 	width: 33em;
 	margin-bottom: 6em;
+	opacity: 1;
 }
 
 .project-title {
@@ -209,8 +210,31 @@ html {
 }
 
 .project-title:hover {
-	background-color: silver;
-	color: black;
+	color: #e6af61;
+	border-color: #e6af61;
+}
+
+
+.project-desc {
+  margin-top: 1.6em;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.81);
+  border: 1px solid white;
+  height: 14em;
+  width: 30em;
+  margin-left: 1.4em;
+  display: none;
+}
+
+.project-desc p {
+	margin-top: 3em;
+	font-weight: bold;
+}
+
+.project-desc p span {
+	color: #e6af61;
 }
 
 
