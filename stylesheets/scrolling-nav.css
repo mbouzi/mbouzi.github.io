@@ -62,18 +62,6 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
-.project-desc {
-    margin-top: 1.6em;
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.81);
-    border: 1px solid white;
-    height: 14em;
-    width: 30em;
-    margin-left: 1.4em
-}
-
 
 .contact-section {
     /*background-image: url("../imgs/Contact.JPG");        background-attachment: fixed, scroll;*/

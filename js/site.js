@@ -6,7 +6,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-	$('h2').click(function(){
-		
+	$('caption').click(function(){
+		$('.projects').toggleClass('opac');
+		$('.project-desc').toggleClass('desc-trans');
 	});
 });

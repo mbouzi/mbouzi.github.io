@@ -1,6 +1,6 @@
 @font-face { font-family: Delicious; src: url('delicious_[123].sit'); } 
 
-/**/
+/*#e6af61*/
 body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-align: center;
@@ -192,7 +192,7 @@ html {
 .projects {
 	width: 33em;
 	margin-bottom: 6em;
-	opacity: 1;
+	transition: opacity .5s ease-in;
 }
 
 .project-title {
@@ -206,7 +206,7 @@ html {
 	padding: 0 -2em 0 -2em;
 	width: 26%;
 	margin-left: 11em;
-	transition-duration: .4s;
+	transition-duration: .5s;
 }
 
 .project-title:hover {
@@ -214,18 +214,35 @@ html {
 	border-color: #e6af61;
 }
 
+.project-title:active {
+	color: #e6af61;
+	border-color: #e6af61;
+}
+
 
 .project-desc {
-  margin-top: 1.6em;
+  margin-top: -.4em;
   position: absolute;
   z-index: 1;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.81);
+  background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid white;
   height: 14em;
   width: 30em;
   margin-left: 1.4em;
-  display: none;
+  transition-duration: .3s;
+  opacity: 0;
+  color: white;
+  transition: all .44s ease;
+}
+
+.desc-trans {
+	opacity: 1;
+	margin-top: 1.6em;
+}
+
+.opac {
+	opacity: .3;
 }
 
 .project-desc p {
