@@ -1,15 +1,28 @@
-@font-face { font-family: Delicious; src: url('delicious_[123].sit'); } 
+@font-face { font-family: FFF-Tusj; src: url('FFF_Tusj.ttf'); } 
+@font-face { font-family: Fontin; src: url('Fontin-Regular.ttf'); } 
 
 /*#e6af61*/
+
+
 body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-align: center;
-	background: black;
 }
 
 html {
     -webkit-font-smoothing: antialiased;
-    background-color: black;
+    background-color: rgb(249, 247, 247);
+    line-height: 1.5;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: FFF-Tusj;
+	font-size: 6em;
+}
+
+p {
+	font-family: Fontin;
 }
 
 #icon {
@@ -72,6 +85,11 @@ html {
 	position: relative;
 	background-color: black;
 	opacity: .35;
+
+}
+
+#welcome-words h1 {
+	font-family: 'Carrois Gothic SC', sans-serif;
 
 }
 
@@ -156,7 +174,11 @@ html {
 
 #about p {
 	position: relative;	
-	top: 1em;
+	color: rgb(32, 35, 38);
+	width: 65%;
+  margin-left: 12.4em;
+  margin-top: 3em;
+  font-size: 1.2em;
 }
 
 #gap-1 {
@@ -168,25 +190,36 @@ html {
 	opacity: .6;
 }
 
-#black-gap-1 {
+#gap-2 {
+	background-image: url("../imgs/train.gif");
+  background-attachment: fixed, scroll;
+  background-size: cover;
+  height: 24%;
+  position: relative;
+  opacity: .9;
+  margin-top: 22em;
+}
+
+/*#black-gap-1 {
 	background-color: black;
 	height: 40%;
 	top: 10em;
 	position: relative;
 
 }
-
+*/
 #projects {
 	display: inline;
 	list-style-type: none;
 	width: 10%;
-	background: black;
+	/*background: black;*/
+
 }
 
 #projects h1 {
 	margin-top: 1.7em;
 	margin-bottom: 2em;
-	color: white;
+	color: rgb(32,35,38);
 }
 
 .projects {
@@ -198,20 +231,21 @@ html {
 .project-title {
 	caption-side: bottom;
 	text-align: center;
-	color: white;
+	color: rgb(32,35,38);
 	margin-top: -4em;
 	font-weight: bold;
 	font-size: 1em;
-	border: 3px solid white;
+	border: 3px solid rgb(32,35,38);
 	padding: 0 -2em 0 -2em;
 	width: 26%;
 	margin-left: 11em;
 	transition-duration: .5s;
+ 
 }
 
 .project-title:hover {
 	color: #e6af61;
-	border-color: #e6af61;
+	background: rgb(32,35,38);
 }
 
 .project-title:active {
@@ -236,18 +270,20 @@ html {
   transition: all .44s ease;
 }
 
+
+
 .desc-trans {
 	opacity: 1;
 	margin-top: 1.6em;
 }
 
-.opac {
-	opacity: .3;
-}
+
 
 .project-desc p {
 	margin-top: 3em;
 	font-weight: bold;
+  font-family: 'Carrois Gothic SC', sans-serif;
+
 }
 
 .project-desc p span {
@@ -281,7 +317,25 @@ html {
 	margin-bottom: 9em;
 }
 
+.contact-section h1 {
+	color: #e6af61;
+}
 
+footer {
+	background: transparent;
+	margin-top: -4em;
+	margin-left: -50em;
+	/*background-color: rgb(32,35,38);*/
+}
 
+.social {
+	margin-right: .2em;
+	color: rgb(32,35,28);
+	transition-duration: .2s;
+}
+
+.social:hover {
+	color: #e6af61;
+}
 
 

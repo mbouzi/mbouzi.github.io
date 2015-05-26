@@ -2,8 +2,10 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $("#top-nav").css("background","white");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $("#top-nav").css("background","transparent")
     }
 });
 
