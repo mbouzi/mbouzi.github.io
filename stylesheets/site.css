@@ -7,6 +7,8 @@
 body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-align: center;
+  background-color: rgb(249, 247, 247);
+
 }
 
 html {
@@ -18,7 +20,7 @@ html {
 h1 {
 	font-weight: bold;
 	font-family: FFF-Tusj;
-	font-size: 6em;
+	font-size: 5em;
 }
 
 p {
@@ -88,10 +90,7 @@ p {
 
 }
 
-#welcome-words h1 {
-	font-family: 'Carrois Gothic SC', sans-serif;
 
-}
 
 #crown {
 	background-image: url("../imgs/home-crown.png");
@@ -125,6 +124,8 @@ p {
 
 #welcome-words h1 {
 	font-size: 7em;
+	/*font-family: 'Carrois Gothic SC', sans-serif;*/
+
 }
 
 #welcome-words h2 {
