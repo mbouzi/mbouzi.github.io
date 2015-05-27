@@ -7,6 +7,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('caption').hover(function(){
-		$('.project-desc').toggleClass('desc-trans');
+		$('.showgoer-desc').toggleClass('show-trans');
+		$('.hacker-desc').toggleClass('hack-trans');
 	});
 });

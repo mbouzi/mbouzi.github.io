@@ -39,7 +39,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 47%;
+    height: 52%;
+    padding-top: 5em;
     text-align: center;
     background: white;
     color: rgb(32, 35, 38);
@@ -58,15 +59,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .projects-section {
-    padding-top: 150px;
     text-align: center;
-    height: 48%
+    height: 60%
 }
 
 
 .contact-section {
     background-image: url("../imgs/Contact.JPG");        background-attachment: fixed, scroll;
-    height: 42%;
+    height: 47%;
     text-align: center;
     background-size: cover;
     /*opacity: .5*/

@@ -27,6 +27,9 @@ p {
 	font-family: Fontin;
 }
 
+
+
+
 #icon {
 	height: 4em;
 	width: 4em;
@@ -212,13 +215,14 @@ p {
 
 
 #projects h1 {
-	margin-top: 1.7em;
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	color: rgb(32,35,38);
 }
 
 .projects {
-	width: 33em;
+	width: 31em;
+	height: 16em;
 	margin-bottom: 6em;
 	transition: opacity .5s ease-in;
 }
@@ -249,8 +253,8 @@ p {
 }
 
 
-.project-desc {
-  margin-top: -.4em;
+.showgoer-desc {
+  margin-top: -1em;
   position: absolute;
   z-index: 1;
   text-align: center;
@@ -258,31 +262,62 @@ p {
   border: 1px solid white;
   height: 14em;
   width: 30em;
-  margin-left: 1.4em;
+  margin-left: .6em;
   transition-duration: .3s;
   opacity: 0;
   color: white;
   transition: all .44s ease;
 }
 
-
-
-.desc-trans {
-	opacity: 1;
-	margin-top: 1.6em;
+.hacker-desc {
+  margin-top: -1em;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-color: rgba(16, 16, 16, 0.81);
+  border: 1px solid white;
+  height: 14em;
+  width: 30em;
+  margin-left: 52.4em;
+  transition-duration: .3s;
+  opacity: 0;
+  color: white;
+  transition: all .44s ease;
 }
 
-
-
-.project-desc p {
+.hacker-desc p {
 	margin-top: 3em;
 	font-weight: bold;
   font-family: 'Carrois Gothic SC', sans-serif;
 
 }
 
-.project-desc p span {
+.hacker-desc p span {
 	color: #e6af61;
+}
+
+
+.show-trans {
+	opacity: 1;
+	margin-top: 1.3em;
+}
+
+
+
+.showgoer-desc p {
+	margin-top: 3em;
+	font-weight: bold;
+  font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+
+.showgoer-desc p span {
+	color: #e6af61;
+}
+
+.hack-trans {
+	opacity: 1;
+	margin-top: 1em;
 }
 
 
@@ -316,11 +351,46 @@ p {
 	color: #e6af61;
 }
 
+input, textarea {
+	background-color: rgb(32,35,28);
+  border: none;
+  color: black;
+  font-size: 2em;
+  width: 14em;
+  outline: none;
+}
+
+input p {
+	color: #e6af61;
+}
+
+
+textarea:focus, input:focus {
+    color: #e6af61;
+}
+
+
+#form-div {
+	margin-top: 12em;
+}
+
+#sub-button {
+  width: 4em;
+  background-color: transparent;
+  border: .2em solid rgb(32,35,38);
+  transition-duration: .4s;
+}
+
+#sub-button:hover {
+  background-color: rgb(32,35,38);
+  border: .2em solid rgb(32,35,38);
+  color: #e6af61;
+}
+
+
 footer {
 	background: transparent;
-	margin-top: -4em;
-	margin-left: -50em;
-	/*background-color: rgb(32,35,38);*/
+	margin-top: -6em;
 }
 
 .social {
