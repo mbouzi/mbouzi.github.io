@@ -6,9 +6,13 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-	$('caption').hover(function(){
+	$('.show-cap').hover(function(){
 		$('.showgoer-desc').toggleClass('show-trans');
+	});
+	$('.hack-cap').hover(function(){
 		$('.hacker-desc').toggleClass('hack-trans');
+	});
+	$('.stack-cap').hover(function(){
 		$('.stack-desc').toggleClass('stack-trans');
 	});
 });
