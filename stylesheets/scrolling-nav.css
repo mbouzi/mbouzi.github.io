@@ -32,8 +32,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 44.4%;
-    /*padding-top: 150px;*/
+    height: 44%;
     text-align: center;
     background: #fff;
 }
@@ -65,9 +64,9 @@ of those sections to manage the look and feel of the site. */
 
 
 .contact-section {
-    background-image: url("../imgs/Contact.JPG");        background-attachment: fixed, scroll;
+    background-image: url("../imgs/Contact.JPG");       
+    background-attachment: fixed, scroll;
     height: 42%;
     text-align: center;
     background-size: cover;
-    /*opacity: .5*/
 }
