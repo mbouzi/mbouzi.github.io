@@ -235,20 +235,28 @@ p {
 .project-title {
 	caption-side: bottom;
 	text-align: center;
-	color: rgb(32,35,38);
 	margin-top: 1em;
 	font-weight: bold;
 	font-size: 1em;
-	border: 3px solid rgb(32,35,38);
+	border: 3px solid rgb(32,35,38) !important;
 	padding: 0 -2em 0 -2em;
 	width: 26%;
 	margin-left: 11em;
 	transition-duration: .5s;
- 
+}
+
+.project-title a {
+	color: rgb(32,35,38) !important;
+
+}
+
+.project-title a:hover {
+	color: #e6af61 !important;
+	background: rgb(32,35,38);
+	text-decoration: none !important;
 }
 
 .project-title:hover {
-	color: #e6af61;
 	background: rgb(32,35,38);
 }
 
