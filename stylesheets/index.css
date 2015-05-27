@@ -184,22 +184,17 @@ p {
 
 }
 
-#gap-1 {
-	background-image: url("../imgs/cultural.JPG");
-	background-attachment: fixed, scroll;
-	background-size: cover;
-	height: 100%;
-	position: relative;
-	opacity: .6;
+#projects h1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: rgb(32,35,38);
 }
 
-#gap-2 {
-	background-image: url("../imgs/train.gif");
-  background-attachment: fixed, scroll;
-  background-size: cover;
-  height: 24%;
-  position: relative;
-  opacity: .9;
+.projects {
+	width: 31em;
+	height: 16em;
+	margin-bottom: 6em;
+	transition: opacity .5s ease-in;
 }
 
 #show-img {
@@ -216,20 +211,6 @@ p {
 
 #stack-img {
 	position: relative;
-}
-
-
-#projects h1 {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	color: rgb(32,35,38);
-}
-
-.projects {
-	width: 31em;
-	height: 16em;
-	margin-bottom: 6em;
-	transition: opacity .5s ease-in;
 }
 
 .project-title {
@@ -374,36 +355,9 @@ p {
 }
 
 
-
 .stack-trans {
 	opacity: 1;
 	margin-top: .2em;
 }
 
-
-.album {
-	width: 20em;
-	height: 20em;
-}
-
-
-
-#under-albums {
-	background-image: url("../imgs/cultural.JPG");
-	background-attachment: fixed, scroll;
-	background-size: cover;
-}
-
-.dev-projects {
-	width: 40em;
-}
-
-#banner {
-	width: 100%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -1.5em;
-	margin-bottom: 9em;
-}
 
