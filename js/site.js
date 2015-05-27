@@ -9,5 +9,6 @@ $(document).ready(function(){
 	$('caption').hover(function(){
 		$('.showgoer-desc').toggleClass('show-trans');
 		$('.hacker-desc').toggleClass('hack-trans');
+		$('.stack-desc').toggleClass('stack-trans');
 	});
 });

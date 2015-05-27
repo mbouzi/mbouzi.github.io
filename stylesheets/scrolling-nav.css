@@ -60,13 +60,13 @@ of those sections to manage the look and feel of the site. */
 
 .projects-section {
     text-align: center;
-    height: 60%
+    height: 62%
 }
 
 
 .contact-section {
     background-image: url("../imgs/Contact.JPG");        background-attachment: fixed, scroll;
-    height: 47%;
+    height: 43%;
     text-align: center;
     background-size: cover;
     /*opacity: .5*/
