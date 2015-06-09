@@ -1,3 +1,4 @@
+@import "responsive";
 @font-face { font-family: FFF-Tusj; src: url('FFF_Tusj.ttf'); } 
 @font-face { font-family: Fontin; src: url('Fontin-Regular.ttf'); } 
 
@@ -301,7 +302,7 @@ p {
 	margin-top: .2em;
 }
 
-.showgoer-desc p {
+.showgoer-desc p, .hacker-desc p, .stack-desc p {
 	margin-top: 3em;
 	font-weight: bold;
   font-family: 'Carrois Gothic SC', sans-serif;
@@ -312,18 +313,11 @@ p {
 	color: $gold;
 }
 
-.hacker-desc p {
-	@extend .showgoer-desc p;
-}
 
 .hacker-desc p span {
 	color: $gold;
 }
 
-
-.stack-desc p {
-	@extend .showgoer-desc p;
-}
 
 .stack-desc p span {
 	color: $gold;
@@ -390,5 +384,29 @@ footer {
 	color: $gold;
 }
 
+
+/* responsive */
+
+@media all and (max-width: 1200px){
+
+}
+
+@media all and (max-width: 991px){
+	.projs {
+		margin-left: 7em;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 990px){
+	
+}
+
+@media all and (max-width: 768px){
+	
+}
+
+@media all and (max-width: 500px){
+	
+}
 
 

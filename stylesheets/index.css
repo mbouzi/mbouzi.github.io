@@ -1,3 +1,8 @@
+@media all and (max-width: 768px) {
+  .projs {
+    margin-left: 0em;
+  }
+}
 @font-face {
   font-family: FFF-Tusj;
   src: url("FFF_Tusj.ttf");
@@ -280,7 +285,7 @@ p {
   margin-top: .2em;
 }
 
-.showgoer-desc p {
+.showgoer-desc p, .hacker-desc p, .stack-desc p {
   margin-top: 3em;
   font-weight: bold;
   font-family: 'Carrois Gothic SC', sans-serif;
@@ -290,20 +295,8 @@ p {
   color: #e6af61;
 }
 
-.hacker-desc p {
-  margin-top: 3em;
-  font-weight: bold;
-  font-family: 'Carrois Gothic SC', sans-serif;
-}
-
 .hacker-desc p span {
   color: #e6af61;
-}
-
-.stack-desc p {
-  margin-top: 3em;
-  font-weight: bold;
-  font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .stack-desc p span {
@@ -362,4 +355,11 @@ footer {
 
 .social:hover {
   color: #e6af61;
+}
+
+/* responsive */
+@media all and (max-width: 991px) {
+  .projs {
+    margin-left: 7em;
+  }
 }
