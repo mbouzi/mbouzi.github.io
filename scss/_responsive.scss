@@ -8,17 +8,19 @@
 	}
 }
 
-@media all and (min-width: 768px) and (max-width: 990px) {
+
+@media all and(min-width: 768px) and (max-width: 990px) {
 	.projs {
 		margin-left: 7em;
 	}
-
+	.projects-section {
+		height: 63% !important;
+	}
 }
 
 @media all and(max-width: 768px) {
-	.projs {
-		margin-left: 0em;
-	}
+	
+	
 }
 
 @media all and(max-width: 500px) {
