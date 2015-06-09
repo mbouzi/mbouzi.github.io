@@ -139,7 +139,7 @@ p {
 	margin: {
 		left: auto;
 		right: auto;
-		top: -42em;
+		top: -44em;
 	}
 	position: relative;
 	color: #fff;
@@ -385,28 +385,5 @@ footer {
 }
 
 
-/* responsive */
-
-@media all and (max-width: 1200px){
-
-}
-
-@media all and (max-width: 991px){
-	.projs {
-		margin-left: 7em;
-	}
-}
-
-@media all and (min-width: 768px) and (max-width: 990px){
-	
-}
-
-@media all and (max-width: 768px){
-	
-}
-
-@media all and (max-width: 500px){
-	
-}
 
 
