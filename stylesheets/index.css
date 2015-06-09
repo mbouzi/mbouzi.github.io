@@ -21,6 +21,30 @@
   .projects-section {
     height: 63% !important;
   }
+
+  #welcome-words {
+    margin-top: -47em !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .projects-section {
+    height: 65% !important;
+  }
+
+  .project-title {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .desc {
+    margin-left: 2.6em !important;
+    width: 40em !important;
+  }
+}
+@media all and (max-width: 600px) {
+  .about-section {
+    height: 63% !important;
+  }
 }
 /*index*/
 body {
@@ -127,7 +151,7 @@ p {
 #welcome-words {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -44em;
+  margin-top: -40em;
   position: relative;
   color: #fff;
   text-align: center;
