@@ -19,7 +19,7 @@
   }
 
   .projects-section {
-    height: 63% !important;
+    height: 67% !important;
   }
 
   #welcome-words {
@@ -232,13 +232,9 @@ p {
   transition: opacity .5s ease-in;
 }
 
-#show-img, #hacker-img, #irad-img {
+#show-img, #hacker-img, #stack-img, #irad-img {
   position: relative;
   margin-bottom: 2em;
-}
-
-#stack-img {
-  position: relative;
 }
 
 .project-title {
@@ -296,11 +292,11 @@ p {
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
   height: 14em;
-  width: 30em;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
+  width: 30em;
 }
 
 .hacker-desc, .irad-desc {
@@ -310,12 +306,12 @@ p {
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
   height: 14em;
-  width: 30em;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
-  margin-left: -3em;
+  margin-left: 0em;
+  width: 30em;
 }
 
 .show-trans, .hack-trans, .stack-trans, .irad-trans {
@@ -386,7 +382,12 @@ textarea:focus, input:focus {
 footer {
   background: transparent;
   margin-top: -6em;
-  margin-left: -18em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foot {
+  margin: 0 auto;
 }
 
 .social {
