@@ -15,4 +15,7 @@ $(document).ready(function(){
 	$('.stack-cap').hover(function(){
 		$('.stack-desc').toggleClass('stack-trans');
 	});
+	$('.irad-cap').hover(function(){
+		$('.irad-desc').toggleClass('irad-trans');
+	});
 });

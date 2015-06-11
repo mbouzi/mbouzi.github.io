@@ -233,7 +233,7 @@ p {
 	transition: opacity .5s ease-in;
 }
 
-#show-img, #hacker-img {
+#show-img, #hacker-img, #irad-img {
 	position: relative;
 	margin-bottom: 2em;
 }
@@ -287,23 +287,28 @@ p {
 	background-size: cover;
 }
 
+#irad-img td {
+	background-image: url("../imgs/irad-screen.png");
+	background-size: cover;
+}
+
 
 
 .showgoer-desc, .stack-desc {
   @include desc;
 }
 
-.hacker-desc {
+.hacker-desc, .irad-desc {
 	@include desc;
-  margin-left: -3em;
+	margin-left: -3em;
 }
 
-.show-trans, .hack-trans, .stack-trans  {
+.show-trans, .hack-trans, .stack-trans,.irad-trans  {
 	opacity: 1;
 	margin-top: .2em;
 }
 
-.showgoer-desc p, .hacker-desc p, .stack-desc p {
+.showgoer-desc p, .hacker-desc p, .stack-desc p, .irad-desc p {
 	margin-top: 3em;
 	font-weight: bold;
   font-family: 'Carrois Gothic SC', sans-serif;
@@ -321,6 +326,10 @@ p {
 
 
 .stack-desc p span {
+	color: $gold;
+}
+
+.irad-desc p span {
 	color: $gold;
 }
 
