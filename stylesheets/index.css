@@ -44,12 +44,22 @@
   }
 }
 @media all and (min-width: 768px) and (max-width: 990px) {
-  .projs {
-    margin-left: 7em;
-  }
-
   .projects-section {
     height: 73% !important;
+  }
+
+  .desc {
+    margin-left: .5em !important;
+    width: 40em !important;
+  }
+
+  .projs {
+    margin-left: 2em !important;
+  }
+
+  .project-title {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   #welcome-words {
@@ -84,7 +94,7 @@
   }
 
   .desc {
-    margin-left: 2.6em !important;
+    margin-left: 1.57em !important;
     width: 40em !important;
   }
 
@@ -110,7 +120,7 @@
   }
 
   .projs {
-    margin-left: 0em !important;
+    margin-left: -2.4em !important;
   }
 
   #form-div {
@@ -132,7 +142,7 @@
   }
 
   .desc {
-    margin-left: 2.6em !important;
+    margin-left: .2em !important;
     width: 40em !important;
   }
 
@@ -145,7 +155,7 @@
   }
 
   .contact-section {
-    height: 37% !important;
+    height: 35% !important;
   }
 
   .projects-section {
