@@ -232,7 +232,7 @@ p {
 	transition: opacity .5s ease-in;
 }
 
-#show-img, #hacker-img, #stack-img, #irad-img {
+#one-img, #two-img, #three-img, #four-img {
 	position: relative;
 	margin-bottom: 2em;
 }
@@ -266,68 +266,68 @@ p {
 }
 
 
-#show-img td {
+#one-img td {
 	background-image: url("../imgs/showgoer-screen.png");
 	background-size: cover;
 
 }
 
-#hacker-img td {
+#two-img td {
 	background-image: url("../imgs/hacker-screen.png");
 	background-size: cover;
 }
 
-#stack-img td {
+#three-img td {
 	background-image: url("../imgs/stack-screen.png");
 	background-size: cover;
 }
 
-#irad-img td {
+#four-img td {
 	background-image: url("../imgs/irad-screen.png");
 	background-size: cover;
 }
 
 
 
-.showgoer-desc, .stack-desc {
+.one-desc, .three-desc {
   @include desc;
   width: 30em;
 
 }
 
-.hacker-desc, .irad-desc {
+.two-desc, .four-desc {
 	@include desc;
 	margin-left: 0em;
 	width: 30em;
 }
 
-.show-trans, .hack-trans, .stack-trans,.irad-trans  {
+.one-trans, .two-trans, .three-trans,.four-trans  {
 	opacity: 1;
 	margin-top: .2em;
 }
 
-.showgoer-desc p, .hacker-desc p, .stack-desc p, .irad-desc p {
+.one-desc p, .two-desc p, .three-desc p, .four-desc p {
 	margin-top: 3em;
 	font-weight: bold;
 	font-family: 'Carrois Gothic SC', sans-serif;
 
 }
 
-.showgoer-desc p span {
+.one-desc p span {
 	color: $gold;
 }
 
 
-.hacker-desc p span {
+.two-desc p span {
 	color: $gold;
 }
 
 
-.stack-desc p span {
+.three-desc p span {
 	color: $gold;
 }
 
-.irad-desc p span {
+.four-desc p span {
 	color: $gold;
 }
 

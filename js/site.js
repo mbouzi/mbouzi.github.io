@@ -6,16 +6,16 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-	$('.show-cap').hover(function(){
-		$('.showgoer-desc').toggleClass('show-trans');
+	$('.one-cap').hover(function(){
+		$('.one-desc').toggleClass('one-trans');
 	});
-	$('.hack-cap').hover(function(){
-		$('.hacker-desc').toggleClass('hack-trans');
+	$('.two-cap').hover(function(){
+		$('.two-desc').toggleClass('two-trans');
 	});
-	$('.stack-cap').hover(function(){
-		$('.stack-desc').toggleClass('stack-trans');
+	$('.three-cap').hover(function(){
+		$('.three-desc').toggleClass('three-trans');
 	});
-	$('.irad-cap').hover(function(){
-		$('.irad-desc').toggleClass('irad-trans');
+	$('.four-cap').hover(function(){
+		$('.four-desc').toggleClass('four-trans');
 	});
 });
