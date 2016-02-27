@@ -133,7 +133,7 @@
   }
 
   .projects-section {
-    height: 150% !important;
+    height: 170% !important;
   }
 
   .project-title {
@@ -164,6 +164,69 @@
 
   #form-div {
     margin-left: 0em !important;
+  }
+}
+@media all and (max-width: 415px) {
+  #welcome-section {
+    background-position: center center;
+  }
+
+  #crown {
+    background-position: center center !important;
+  }
+
+  #name {
+    width: 100% !important;
+  }
+
+  #welcome-words h1 {
+    font-size: 4em !important;
+  }
+
+  #welcome-words img {
+    width: 25% !important;
+  }
+
+  .about-section {
+    height: 150% !important;
+  }
+
+  .projects-section {
+    height: 170% !important;
+  }
+
+  .project-title {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .desc {
+    /* margin-left: .2em !important; */
+    width: 22em !important;
+  }
+
+  #welcome-words {
+    margin-top: -47em !important;
+  }
+
+  .intro-section {
+    height: 100% !important;
+  }
+
+  .contact-section {
+    height: 100% !important;
+  }
+
+  .projs {
+    margin-left: 0em !important;
+  }
+
+  #form-div {
+    margin-left: 0em !important;
+  }
+
+  input, textarea {
+    width: 100% !important;
   }
 }
 /*index*/
