@@ -13,21 +13,8 @@
     margin-top: -42em !important;
   }
 
-  .projects-section {
-    height: 100% !important;
-  }
-
-  .intro-section {
-    height: 100% !important;
-  }
-
   .about-section {
-    height: 100% !important;
     font-size: .95em;
-  }
-
-  .contact-section {
-    height: 100% !important;
   }
 
   #form-div {
@@ -44,10 +31,6 @@
   }
 }
 @media all and (min-width: 768px) and (max-width: 990px) {
-  .projects-section {
-    height: 150% !important;
-  }
-
   .desc {
     margin-left: .5em !important;
     width: 40em !important;
@@ -66,17 +49,8 @@
     margin-top: -47em !important;
   }
 
-  .intro-section {
-    height: 100% !important;
-  }
-
   .about-section {
-    height: 100% !important;
     font-size: .9em;
-  }
-
-  .contact-section {
-    height: 100% !important;
   }
 
   #form-div {
@@ -84,10 +58,6 @@
   }
 }
 @media all and (max-width: 768px) {
-  .projects-section {
-    height: 100% !important;
-  }
-
   .project-title {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -95,28 +65,15 @@
 
   .desc {
     margin-left: 1.57em !important;
-    width: 40em !important;
+    width: 44em !important;
   }
 
   #welcome-words {
     margin-top: -47em !important;
   }
 
-  .intro-section {
-    height: 100% !important;
-  }
-
   .about-section {
-    height: 100% !important;
     font-size: .9em;
-  }
-
-  .contact-section {
-    height: 100% !important;
-  }
-
-  .projects-section {
-    height: 150% !important;
   }
 
   .projs {
@@ -128,12 +85,24 @@
   }
 }
 @media all and (max-width: 600px) {
-  .about-section {
-    height: 100% !important;
+  #welcome-section {
+    background-position: center center;
   }
 
-  .projects-section {
-    height: 170% !important;
+  #crown {
+    background-position: center center !important;
+  }
+
+  #name {
+    width: 100% !important;
+  }
+
+  #welcome-words h1 {
+    font-size: 4em !important;
+  }
+
+  #welcome-words img {
+    width: 25% !important;
   }
 
   .project-title {
@@ -150,20 +119,17 @@
     margin-top: -47em !important;
   }
 
-  .intro-section {
-    height: 100% !important;
-  }
-
-  .contact-section {
-    height: 100% !important;
-  }
-
   .projs {
-    margin-left: -4em !important;
+    margin-left: 0em !important;
   }
 
   #form-div {
     margin-left: 0em !important;
+  }
+
+  .desc {
+    /* margin-left: .2em !important; */
+    width: 22em !important;
   }
 }
 @media all and (max-width: 415px) {
@@ -187,14 +153,6 @@
     width: 25% !important;
   }
 
-  .about-section {
-    height: 150% !important;
-  }
-
-  .projects-section {
-    height: 170% !important;
-  }
-
   .project-title {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -202,19 +160,11 @@
 
   .desc {
     /* margin-left: .2em !important; */
-    width: 22em !important;
+    width: 24em !important;
   }
 
   #welcome-words {
     margin-top: -47em !important;
-  }
-
-  .intro-section {
-    height: 100% !important;
-  }
-
-  .contact-section {
-    height: 100% !important;
   }
 
   .projs {
@@ -410,7 +360,7 @@ p {
 
 .projects {
   width: 31em;
-  height: 100%;
+  height: 16em;
   margin-bottom: 6em;
   transition: opacity .5s ease-in;
 }
