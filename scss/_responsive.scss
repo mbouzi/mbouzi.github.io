@@ -4,18 +4,18 @@
 	}
 
 	.projects-section {
-		height: 73% !important;
+		height: 100% !important;
 	}
 	
 	.intro-section {
-	    height: 39% !important;
+	    height: 100% !important;
 	}
 	.about-section {
-		height: 39% !important;
+		height: 100% !important;
 		font-size: .95em;
 	}
 	.contact-section {
-		height: 37% !important;
+		height: 100% !important;
 	}
 	#form-div {
 		margin-left: 23em !important;
@@ -38,7 +38,7 @@
 @media all and(min-width: 768px) and (max-width: 990px) {
 	
 	.projects-section {
-		height: 73% !important;
+		height: 150% !important;
 	}
 	.desc {
 		margin-left: .5em !important;
@@ -55,14 +55,14 @@
 		margin-top: -47em !important;
 	}
 	.intro-section {
-	    height: 38% !important;
+	    height: 100% !important;
 	}
 	.about-section {
-		height: 38% !important;
+		height: 100% !important;
 		font-size: .9em;
 	}
 	.contact-section {
-		height: 38% !important;
+		height: 100% !important;
 	}
 	#form-div {
 		margin-left: 23em !important;
@@ -72,7 +72,7 @@
 @media all and(max-width: 768px) {
 	
 	.projects-section {
-		height: 65% !important;
+		height: 100% !important;
 	}
 
 	.project-title {
@@ -88,17 +88,17 @@
 		margin-top: -47em !important;
 	}
 	.intro-section {
-	    height: 38% !important;
+	    height: 100% !important;
 	}
 	.about-section {
-		height: 40% !important;
+		height: 100% !important;
 		font-size: .9em;
 	}
 	.contact-section {
-		height: 37% !important;
+		height: 100% !important;
 	}
 	.projects-section {
-		height: 72% !important;
+		height: 150% !important;
 	}
 	.projs {
 		margin-left: -2.4em !important;
@@ -110,12 +110,12 @@
 
 @media all and(max-width: 600px) {
 	.about-section {
-		height: 40% !important;
+		height: 100% !important;
 
 	}
 
 	.projects-section {
-		height: 65% !important;
+		height: 150% !important;
 	}
 
 	.project-title {
@@ -132,15 +132,13 @@
 		margin-top: -47em !important;
 	}
 	.intro-section {
-	    height: 38% !important;
+	    height: 100% !important;
 	}
 	
 	.contact-section {
-		height: 35% !important;
+		height: 100% !important;
 	}
-	.projects-section {
-		height: 72% !important;
-	}
+	
 	.projs {
 		margin-left: -4em !important;
 	}
