@@ -9,7 +9,7 @@ $dark-gray: #202326;
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 14em;
+  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
@@ -291,14 +291,14 @@ p {
 
 .one-desc, .three-desc {
   @include desc;
-  width: 30em;
+  width: 100%;
 
 }
 
 .two-desc, .four-desc {
 	@include desc;
 	margin-left: 0em;
-	width: 30em;
+	width: 100%;
 }
 
 .one-trans, .two-trans, .three-trans,.four-trans  {

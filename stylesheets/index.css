@@ -64,7 +64,6 @@
   }
 
   .desc {
-    margin-left: 1.57em !important;
     width: 44em !important;
   }
 
@@ -111,7 +110,6 @@
   }
 
   .desc {
-    margin-left: .2em !important;
     width: 40em !important;
   }
 
@@ -129,7 +127,7 @@
 
   .desc {
     /* margin-left: .2em !important; */
-    width: 22em !important;
+    width: 100% !important;
   }
 }
 @media all and (max-width: 415px) {
@@ -160,7 +158,7 @@
 
   .desc {
     /* margin-left: .2em !important; */
-    width: 24em !important;
+    width: 100% !important;
   }
 
   #welcome-words {
@@ -424,12 +422,12 @@ p {
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 14em;
+  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
-  width: 30em;
+  width: 100%;
 }
 
 .two-desc, .four-desc {
@@ -438,13 +436,13 @@ p {
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 14em;
+  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
   margin-left: 0em;
-  width: 30em;
+  width: 100%;
 }
 
 .one-trans, .two-trans, .three-trans, .four-trans {
