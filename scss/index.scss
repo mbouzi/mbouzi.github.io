@@ -163,19 +163,16 @@ p {
 }
 
 #scroll-btn {
-	margin-top: 10em;
-	position: absolute;
+    margin-top: 10em;
+    display: block;
 }
 
 .down-arrow, .down-arrow a {
 	color: #fff;
-	top: -15.3em;
-	position: absolute;
-	right: -38px;
 	height: 4em;
 	-webkit-filter: invert(100%);
-  filter: invert(100%);
-  opacity: 1;
+  	filter: invert(100%);
+  	opacity: 1;
 }
 
 .crown {
