@@ -33,8 +33,9 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     text-align: center;
-    background: #fff;
     height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .about-section {

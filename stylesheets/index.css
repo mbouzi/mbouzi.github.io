@@ -9,10 +9,6 @@
 }
 
 @media all and (max-width: 1200px) {
-  #welcome-words {
-    margin-top: -42em !important;
-  }
-
   .about-section {
     font-size: .95em;
   }
@@ -25,12 +21,12 @@
     margin-left: 14.7em;
   }
 }
-@media all and (max-width: 991px) {
-  #welcome-words {
-    margin-top: -44em;
-  }
-}
 @media all and (min-width: 768px) and (max-width: 990px) {
+  #scroll-btn {
+    margin-top: 8em !important;
+    display: block;
+  }
+
   .desc {
     margin-left: .5em !important;
     width: 40em !important;
@@ -45,10 +41,6 @@
     margin-right: auto !important;
   }
 
-  #welcome-words {
-    margin-top: -47em !important;
-  }
-
   .about-section {
     font-size: .9em;
   }
@@ -58,6 +50,11 @@
   }
 }
 @media all and (max-width: 768px) {
+  #scroll-btn {
+    margin-top: 15em !important;
+    display: block;
+  }
+
   .project-title {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -67,8 +64,13 @@
     width: 44em !important;
   }
 
-  #welcome-words {
-    margin-top: -47em !important;
+  #welcome-words h1 {
+    font-size: 4em !important;
+  }
+
+  #scroll-btn {
+    margin-top: 4em !important;
+    display: block;
   }
 
   .about-section {
@@ -101,7 +103,7 @@
   }
 
   #welcome-words img {
-    width: 25% !important;
+    width: 15% !important;
   }
 
   .project-title {
@@ -111,10 +113,6 @@
 
   .desc {
     width: 40em !important;
-  }
-
-  #welcome-words {
-    margin-top: -47em !important;
   }
 
   .projs {
@@ -159,10 +157,6 @@
   .desc {
     /* margin-left: .2em !important; */
     width: 100% !important;
-  }
-
-  #welcome-words {
-    margin-top: -47em !important;
   }
 
   .projs {
@@ -280,15 +274,17 @@ p {
 }
 
 #welcome-words {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -40em;
-  position: relative;
-  color: #fff;
+  position: absolute;
   text-align: center;
+  top: 25%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
 }
 #welcome-words h1 {
   font-size: 7em;
+  color: silver;
 }
 #welcome-words h2 {
   font-size: 3em;
@@ -297,15 +293,15 @@ p {
 
 #name {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
   color: silver;
 }
 
 #scroll-btn {
-  margin-top: 10em;
-  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 1em auto;
 }
 
 .down-arrow, .down-arrow a {
