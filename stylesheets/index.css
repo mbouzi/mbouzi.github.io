@@ -364,14 +364,13 @@ p {
 .project-title {
   caption-side: bottom;
   text-align: center;
-  margin-top: 1em;
   font-weight: bold;
   font-size: 1em;
   border: 3px solid #202326 !important;
   padding: 0 -2em 0 -2em;
-  width: 26%;
-  margin-left: 11em;
+  width: 50%;
   transition-duration: .5s;
+  margin: 1em auto;
 }
 .project-title:hover {
   background: #202326;
