@@ -1,29 +1,20 @@
 @media all and (max-width: 1200px) {
-	#welcome-words {
-	}
-
-	.projects-section {
-	}
 	
-	.intro-section {
-	}
 	.about-section {
 		font-size: .95em;
 	}
-	.contact-section {
-	}
+	
 	#form-div {
 		margin-left: 23em !important;
 	}
 
-	.projs {
-		margin-left: 14.7em;
+	.desc {
+	    bottom: .2em !important;
+	    left: 1.8em !important;
 	}
 
-}
-
-@media all and (max-width: 991px) {
-	#welcome-words {
+	.project-title {
+		width: 50% !important;
 	}
 
 }
@@ -36,28 +27,25 @@
 	    display: block;
 	}
 
-	.projects-section {
-	}
 	.desc {
-		margin-left: .5em !important;
+		margin-left: 4.5em !important;
 		width: 40em !important;
+		bottom: 3em !important;
 	}
+
 	.projs {
 		margin-left: 2em !important;
 	}
+
 	.project-title {
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
-	#welcome-words {
-	}
-	.intro-section {
-	}
+	
 	.about-section {
 		font-size: .9em;
 	}
-	.contact-section {
-	}
+	
 	#form-div {
 		margin-left: 23em !important;
 	}
@@ -78,6 +66,8 @@
 
 	.desc {
 		width: 44em !important;
+		left: 3.4em !important;
+		bottom: 3.4em !important;
 	}
 
 	
@@ -90,24 +80,10 @@
 	    display: block;
 	}
 
-	.intro-section {
-	}
-
 	.about-section {
 		font-size: .9em;
 	}
-
-	.contact-section {
-	}
-
-	.projects-section {
-	}
-
-	.projs {
-		margin-left: -2.4em !important;
-	}
-
-	#form-div {
+3.4	#form-div {
 		margin-left: 0em !important;
 	}
 }
@@ -136,28 +112,18 @@
 		width: 15% !important;
 	}
 
-	.about-section {
-
-	}
-
-	.projects-section {
-	}
-
 	.project-title {
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
 
 	.desc {
-		width: 40em !important;
+		bottom: .2em !important;
+		left: 2.2em !important;
+		width: 86% !important;
 	}
 
 	#welcome-words {
-	}
-	.intro-section {
-	}
-	
-	.contact-section {
 	}
 	
 	.projs {
@@ -197,30 +163,15 @@
 		width: 25% !important;
 	}
 
-
-	.about-section {
-
-	}
-
-	.projects-section {
+	.desc {
+		bottom: -2.8em !important;
+		left: 2.2em !important;
+		width: 86% !important;
 	}
 
 	.project-title {
 		margin-left: auto !important;
 		margin-right: auto !important;
-	}
-
-	.desc {
-	    /* margin-left: .2em !important; */
-	    width: 100% !important;
-	}
-
-	#welcome-words {
-	}
-	.intro-section {
-	}
-	
-	.contact-section {
 	}
 	
 	.projs {

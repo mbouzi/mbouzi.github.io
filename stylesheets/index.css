@@ -17,8 +17,13 @@
     margin-left: 23em !important;
   }
 
-  .projs {
-    margin-left: 14.7em;
+  .desc {
+    bottom: .2em !important;
+    left: 1.8em !important;
+  }
+
+  .project-title {
+    width: 50% !important;
   }
 }
 @media all and (min-width: 768px) and (max-width: 990px) {
@@ -28,8 +33,9 @@
   }
 
   .desc {
-    margin-left: .5em !important;
+    margin-left: 4.5em !important;
     width: 40em !important;
+    bottom: 3em !important;
   }
 
   .projs {
@@ -62,6 +68,8 @@
 
   .desc {
     width: 44em !important;
+    left: 3.4em !important;
+    bottom: 3.4em !important;
   }
 
   #welcome-words h1 {
@@ -77,11 +85,7 @@
     font-size: .9em;
   }
 
-  .projs {
-    margin-left: -2.4em !important;
-  }
-
-  #form-div {
+  3.4	#form-div {
     margin-left: 0em !important;
   }
 }
@@ -112,7 +116,9 @@
   }
 
   .desc {
-    width: 40em !important;
+    bottom: .2em !important;
+    left: 2.2em !important;
+    width: 86% !important;
   }
 
   .projs {
@@ -149,14 +155,15 @@
     width: 25% !important;
   }
 
+  .desc {
+    bottom: -2.8em !important;
+    left: 2.2em !important;
+    width: 86% !important;
+  }
+
   .project-title {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-
-  .desc {
-    /* margin-left: .2em !important; */
-    width: 100% !important;
   }
 
   .projs {
@@ -367,10 +374,11 @@ p {
   font-weight: bold;
   font-size: 1em;
   border: 3px solid #202326 !important;
-  padding: 0 -2em 0 -2em;
-  width: 50%;
+  padding-top: .5em;
+  width: 20%;
   transition-duration: .5s;
   margin: 1em auto;
+  padding-bottom: .5em;
 }
 .project-title:hover {
   background: #202326;
@@ -398,7 +406,7 @@ p {
   background-size: cover;
 }
 
-.one-desc, .three-desc {
+.desc {
   z-index: 1;
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
@@ -408,22 +416,8 @@ p {
   color: #fff;
   transition: all .44s ease;
   position: absolute;
-  bottom: .6em;
+  bottom: 2em;
   left: 5em;
-}
-
-.two-desc, .four-desc {
-  z-index: 1;
-  text-align: center;
-  background-color: rgba(16, 16, 16, 0.81);
-  border: 1px solid #fff;
-  transition-duration: .3s;
-  opacity: 0;
-  color: #fff;
-  transition: all .44s ease;
-  position: absolute;
-  margin-left: 0em;
-  width: 100%;
 }
 
 .one-trans, .two-trans, .three-trans, .four-trans {
