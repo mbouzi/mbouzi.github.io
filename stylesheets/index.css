@@ -388,19 +388,9 @@ p {
   text-decoration: none !important;
 }
 
-#one-img td {
-  background-image: url("../imgs/showgoer-screen.jpg");
-  background-size: cover;
-}
-
-#two-img td {
-  background-image: url("../imgs/hacker-screen.jpg");
-  background-size: cover;
-}
-
-#three-img td {
-  background-image: url("../imgs/stack-screen.jpg");
-  background-size: cover;
+.projs div img {
+  width: 100%;
+  position: relative;
 }
 
 #four-img td {
@@ -409,30 +399,29 @@ p {
 }
 
 .one-desc, .three-desc {
-  margin-top: -4em;
   z-index: 1;
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
-  width: 100%;
+  position: absolute;
+  bottom: .6em;
+  left: 5em;
 }
 
 .two-desc, .four-desc {
-  margin-top: -4em;
   z-index: 1;
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
+  position: absolute;
   margin-left: 0em;
   width: 100%;
 }

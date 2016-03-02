@@ -19,3 +19,13 @@ $(document).ready(function(){
 		$('.four-desc').toggleClass('four-trans');
 	});
 });
+
+// if ($(window).width() < 960) {
+//    alert('Less than 960');
+// }
+
+// $(document).ready(function(){
+// 	if ($(window).width() < 960) {
+// 	   alert('Less than 960');
+// 	}
+// });

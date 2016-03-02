@@ -4,16 +4,15 @@
 $gold: #e6af61;
 $dark-gray: #202326;
 @mixin desc {
-	margin-top: -4em;
   z-index: 1;
   text-align: center;
   background-color: rgba(16, 16, 16, 0.81);
   border: 1px solid #fff;
-  height: 100%;
   transition-duration: .3s;
   opacity: 0;
   color: #fff;
   transition: all .44s ease;
+  position: absolute;
 }
 
 @import "responsive";
@@ -265,23 +264,25 @@ p {
 			text-decoration: none !important;
 		}
 	}
+
 }
 
+.project {
+}
+
+.projs div img {
+	width: 100%;
+	position: relative;
+}
 
 #one-img td {
-	background-image: url("../imgs/showgoer-screen.jpg");
-	background-size: cover;
 
 }
 
 #two-img td {
-	background-image: url("../imgs/hacker-screen.jpg");
-	background-size: cover;
 }
 
 #three-img td {
-	background-image: url("../imgs/stack-screen.jpg");
-	background-size: cover;
 }
 
 #four-img td {
@@ -293,7 +294,8 @@ p {
 
 .one-desc, .three-desc {
   @include desc;
-  width: 100%;
+  bottom: .6em;
+  left: 5em;
 
 }
 
