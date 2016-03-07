@@ -53,6 +53,8 @@
 
   #form-div {
     margin-left: 23em !important;
+    position: relative !important;
+    margin-top: 0em !important;
   }
 }
 @media all and (max-width: 768px) {
@@ -85,7 +87,8 @@
     font-size: .9em;
   }
 
-  3.4	#form-div {
+  #form-div {
+    margin-top: 0em !important;
     margin-left: 0em !important;
   }
 }
@@ -122,10 +125,6 @@
   }
 
   .projs {
-    margin-left: 0em !important;
-  }
-
-  #form-div {
     margin-left: 0em !important;
   }
 
@@ -170,10 +169,6 @@
     margin-left: 0em !important;
   }
 
-  #form-div {
-    margin-left: 0em !important;
-  }
-
   input, textarea {
     width: 100% !important;
   }
@@ -189,6 +184,10 @@ html {
   -webkit-font-smoothing: antialiased;
   background-color: #f9f7f7;
   line-height: 1.5;
+}
+
+.parallax {
+  background-position: 0 0;
 }
 
 h1 {
@@ -471,6 +470,7 @@ textarea:focus, input:focus {
 
 #form-div {
   margin-top: 12em;
+  position: relative;
 }
 
 #sub-button {

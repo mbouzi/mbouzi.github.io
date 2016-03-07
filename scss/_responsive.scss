@@ -27,6 +27,7 @@
 	    display: block;
 	}
 
+
 	.desc {
 		margin-left: 4.5em !important;
 		width: 40em !important;
@@ -46,9 +47,14 @@
 		font-size: .9em;
 	}
 	
+
 	#form-div {
 		margin-left: 23em !important;
+		position: relative !important;
+		margin-top: 0em !important;
 	}
+
+	
 }
 
 @media all and(max-width: 768px) {
@@ -58,6 +64,7 @@
 	    margin-top: 15em !important;
 	    display: block;
 	}
+
 
 	.project-title {
 		margin-left: auto !important;
@@ -83,7 +90,8 @@
 	.about-section {
 		font-size: .9em;
 	}
-3.4	#form-div {
+	#form-div {
+    	margin-top: 0em !important;
 		margin-left: 0em !important;
 	}
 }
@@ -123,16 +131,11 @@
 		width: 86% !important;
 	}
 
-	#welcome-words {
-	}
 	
 	.projs {
 	    margin-left: 0em !important;
 	}
 
-	#form-div {
-		margin-left: 0em !important;
-	}
 
 	.desc {
 	    /* margin-left: .2em !important; */
@@ -178,9 +181,6 @@
 	    margin-left: 0em !important;
 	}
 
-	#form-div {
-		margin-left: 0em !important;
-	}
 
 	input, textarea {
 	    width: 100% !important;

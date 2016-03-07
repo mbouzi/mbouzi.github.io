@@ -20,12 +20,3 @@ $(document).ready(function(){
 	});
 });
 
-// if ($(window).width() < 960) {
-//    alert('Less than 960');
-// }
-
-// $(document).ready(function(){
-// 	if ($(window).width() < 960) {
-// 	   alert('Less than 960');
-// 	}
-// });
