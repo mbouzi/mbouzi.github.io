@@ -209,6 +209,46 @@ p {
 	}
 }
 
+/*skills */
+
+#skills {
+    background: rgb(32, 35, 38);
+    h3 {
+    	color: #e6af61;
+    }
+    height: 100%;
+    text-align: center;
+}
+
+.skill-list {
+    list-style-type: none;
+    li {
+	    text-align: left;
+	    text-decoration: none;
+	    color: #fff;
+    }
+}
+
+.work-list {
+    list-style-type: none;
+    li {
+	    font-size: 16px;
+	    margin-top: .5em;
+    }
+    li a {
+	    color: #fff;
+	    text-decoration: none;
+	    &:hover {
+	    	text-decoration: underline;
+	    }
+    }
+
+}
+
+#skills h4 {
+	text-align: left;
+	color: #e6af61;
+}
 
 
 

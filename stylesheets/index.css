@@ -348,6 +348,45 @@ p {
   height: 10em;
 }
 
+/*skills */
+#skills {
+  background: #202326;
+  height: 100%;
+  text-align: center;
+}
+#skills h3 {
+  color: #e6af61;
+}
+
+.skill-list {
+  list-style-type: none;
+}
+.skill-list li {
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+}
+
+.work-list {
+  list-style-type: none;
+}
+.work-list li {
+  font-size: 16px;
+  margin-top: .5em;
+}
+.work-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.work-list li a:hover {
+  text-decoration: underline;
+}
+
+#skills h4 {
+  text-align: left;
+  color: #e6af61;
+}
+
 /*projects*/
 #projects h1 {
   margin-top: 1em;
