@@ -252,7 +252,7 @@ p {
 }
 
 #welcome-section {
-  background-image: url("../imgs/home.jpeg");
+  background-image: url("../imgs/home.jpg");
   background-attachment: fixed, scroll;
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,7 +264,7 @@ p {
 }
 
 #crown {
-  background-image: url("../imgs/home-crown.png");
+  background-image: url("../imgs/home-2.png");
   background-attachment: fixed, scroll;
   background-size: cover;
   background-repeat: no-repeat;

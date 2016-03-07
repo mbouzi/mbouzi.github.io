@@ -12,7 +12,7 @@ $dark-gray: #202326;
 body {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	text-align: center;
-  background-color: #000;
+  	background-color: #000;
 
 }
 
@@ -92,7 +92,7 @@ p {
 
 #welcome-section {
 	background: {
-	image: url("../imgs/home.jpeg");
+	image: url("../imgs/home.jpg");
 	attachment: fixed, scroll;
 	size: cover;
 	repeat: no-repeat;
@@ -107,7 +107,7 @@ p {
 
 #crown {
 	background: {
-		image: url("../imgs/home-crown.png");
+		image: url("../imgs/home-2.png");
 		attachment: fixed, scroll;
 		size: cover;
 		repeat: no-repeat;
