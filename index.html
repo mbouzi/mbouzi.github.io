@@ -18,6 +18,10 @@
     <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css">
 
+    <!-- ReactJS -->
+    <script src="https://fb.me/react-0.14.7.js"></script>
+    <script src="https://fb.me/react-dom-0.14.7.js"></script>
+
     <!-- Font Awesome -->
     <link rel="stylesheet"  href="stylesheets/font-awesome/css/font-awesome.min.css">
 
@@ -164,6 +168,9 @@
                       <li><a target="_blank" href="http://flhaunt.com/">FlHaunt: Awesomeness TV</a></li>
                       <li><a target="_blank" href="http://www.thesoundofmusicontourshop.com/">The Sound of Music</a></li>
                     </ul>
+                    <div id="work-image">
+                      <img src="">
+                    </div>
                   </div>
                   
 
@@ -306,4 +313,40 @@
       <script src="js/site.js"></script>
 
   </body>
+
+  <script type="text/jsx">
+  
+  var Project = React.createClass(function(){
+    render: function(){
+      return (
+        <img src={this.props.image} className={}>
+      )
+    }
+  })
+
+  var ProjectList = React.createClass(function(){
+    render: function(){
+      var list = this.props.images.map(function(image){
+        return <Project {... image.props}/>
+      })
+      return (
+        <img src={this.props.image}>
+      )
+    }
+  })
+
+  var options = {
+    projects: [
+      {
+        name: 'brmc',
+        image: 'imgs/brmc.png'
+      }
+    ]
+  }
+
+  var element = React.createElement(HelloWorld);
+
+  ReactDOM.render(element, document.body)
+  </script>
+
 </html>

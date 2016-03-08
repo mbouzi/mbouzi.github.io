@@ -22,9 +22,6 @@ html {
   line-height: 1.5;
 }
 
-.parallax {
-	background-position: 0 0;
-}
 
 h1 {
 	font: {
@@ -444,8 +441,10 @@ footer {
 
 
 
-/* responsive */
+/* work-project */
 
-
+.display {
+	visibility: hidden;
+}
 
 
