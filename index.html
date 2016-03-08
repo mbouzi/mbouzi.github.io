@@ -315,22 +315,55 @@
   </body>
 
   <script type="text/jsx">
+
   
+
+
   var Project = React.createClass(function(){
+    
+    handleClick: function(){
+      this.setState({
+        display = !this.state.display
+      })
+    },
+
+    getInitialState: function{
+      return ({display: false})
+    },
+
     render: function(){
       return (
-        <img src={this.props.image} className={}>
+        <li><a target="_blank" onClick={this.handleClick} href={this.props.site}>{this.props.name}</a></li>
       )
     }
   })
 
   var ProjectList = React.createClass(function(){
     render: function(){
-      var list = this.props.images.map(function(image){
-        return <Project {... image.props}/>
+      var list = this.props.images.map(function(site){
+        return <Project {... site.props}/>
       })
       return (
-        <img src={this.props.image}>
+        {list}
+      )
+    }
+
+  
+  var ProjectImage = React.createClass(function(){
+    render: function(){
+      return (
+        <img src={this.props.image} className={wow fadeInDown animated + (this.state ? ' display' : '')}>
+      )
+    }
+  })
+
+  var ProjectImageList = React.createClass(function(){
+    render: function(){
+      var list = this.props.images.map(function(image){
+        return <ProjectImage {... image.props}/>
+      })
+      return (
+        {list}
       )
     }
   })
@@ -339,7 +372,8 @@
     projects: [
       {
         name: 'brmc',
-        image: 'imgs/brmc.png'
+        image: 'imgs/brmc.png',
+        site: 'http://www.brmcstore.com/'
       }
     ]
   }
