@@ -19,8 +19,8 @@
     <link href="http://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css">
 
     <!-- ReactJS -->
-    <script src="https://fb.me/react-0.14.7.js"></script>
-    <script src="https://fb.me/react-dom-0.14.7.js"></script>
+    <script src="http://fb.me/react-0.13.0.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.13.0.js"></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet"  href="stylesheets/font-awesome/css/font-awesome.min.css">
@@ -167,8 +167,10 @@
                       <li><a target="_blank" href="http://flhaunt.com/">FlHaunt: Awesomeness TV</a></li>
                       <li><a target="_blank" href="http://www.thesoundofmusicontourshop.com/">The Sound of Music</a></li>
                     </ul>
+                    <div class="test">
+                      
+                    </div>
                     <div class="work-image">
-                      <img src="">
                     </div>
                   </div>
                   
@@ -316,84 +318,89 @@
   <script type="text/jsx">
 
 
-  var Project = React.createClass(function(){
+    var Project = React.createClass({
+      
+      render: function(){
+        return (
+          <li><a target="_blank" onClick={this.handleClick} >{this.props.name}</a></li>
+        )
+      },
+
+      handleClick: function(){
+        this.props.whenClicked(this.props.site)
+      }
+
+    });
+
+    var ProjectList = React.createClass({
+      
+      getInitialState: function(){
+        return {
+          display: '',
+          show: false
+        }
+      },
+
+      whenClicked: function(project){
+        this.setState({
+          display: site.name,
+          show: !this.state.show
+        })
+      },
+
+      render: function(){
+        return <div>
+          {this.renderList()}
+        </div>
+      },
+      
+      renderList: function(){
+
+        var list = []  
+        for(var key in this.props.projects) {
+          var project = this.props.projects[key]
+          project.key = key
+          
+          list.push(
+            <Project 
+              name={project.name} key={key} handleClick={this.props.whenClicked}
+            />
+          )
+        }
+        return list
+      }
+
+    });
+
     
-    handleClick: function(){
-      this.props.whenClicked(this.props.site)
-    },
-
-
-    render: function(){
-      return (
-        <li><a target="_blank" onClick={this.handleClick} >{this.props.name}</a></li>
-      )
-    }
-  });
-
-  var ProjectList = React.createClass(function(){
-    
-    getInitialState: function(){
-      return (
-        display: ''
-        show: false
-      )
-    },
-
-    whenClicked: function(project){
-      this.setState({
-        display: site.name
-        show: !this.state.show
-      })
-    },
-
-    render: function(){
-      return <div>
-        {this.renderList()}
-      </div>
-    },
-    
-    renderList: function(){
-
-      var list = {}    
-      for(var key in this.props.projects) {
-        var project = this.props.projects[key]
-        project.key = key
-        
-        list.push(
-          <Project 
-          {... project.props}/>
+    var ProjectImage = React.createClass({
+      render: function(){
+        return (
+          <a href={this.state.display == this.props.name ? this.props.image : ''}><img src={this.state.display == this.props.name ? this.props.image : ''} className={'wow fadeInDown animated' + (this.state.show ? ' display' : '')}></img></a>
         )
       }
-      return list
+    });
+
+
+    var options = {
+      projects: [
+        {
+          name: 'brmc',
+          image: 'imgs/brmc.png',
+          site: 'http://www.brmcstore.com/'
+        },{
+          name: 'brmc',
+          image: 'imgs/brmc.png',
+          site: 'http://www.brmcstore.com/'
+        }
+      ]
     }
 
-  });
+    var element = React.createElement(ProjectList, options);
+    var proImg = React.createElement(ProjectImage, options);
 
-  
-  var ProjectImage = React.createClass(function(){
-    render: function(){
-      return (
-        <a href={this.state.display == this.props.name ? this.props.image : ''}><img src={this.state.display == this.props.name ? this.props.image : ''} className={wow fadeInDown animated + (this.state.show ? ' display' : '')}></a>
-      )
-    }
-  });
-
-
-  var options = {
-    projects: [
-      {
-        name: 'brmc',
-        image: 'imgs/brmc.png',
-        site: 'http://www.brmcstore.com/'
-      }
-    ]
-  }
-
-  var proList = React.createElement(ProjectList);
-  var proImg = React.createElement(ProjectImage);
-
-  ReactDOM.render(proList, document.querySelector('.work-list'))
-  ReactDOM.render(proImg, document.querySelector('.work-img'))
+    React.render(element, document.querySelector('.test'))
+    React.render(proImg, document.querySelector('.work-image'))
   </script>
 
 </html>
