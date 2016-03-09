@@ -148,28 +148,7 @@
                   <div class="col-xs-6">
                     <h3>Work</h3>
                     <ul class="work-list">
-                      <li><a target="_blank" href="http://startrekultimatevoyagestore.com/">Star Trek</a></li>
-                      <li><a target="_blank" href="http://store.elliegoulding.com/">Ellie Goulding</a></li>
-                      <li><a target="_blank" href="https://eboutique.cirquedusoleil.com/">Cirque du Soleil</a></li>
-                      <li><a target="_blank" href="http://phantogramshop.com">Phantogram</a></li>
-                      <li><a target="_blank" href="http://www.carlyraejepsenshop.com/">Carly Rae Jepsen</a></li>
-                      <li><a target="_blank" href="http://www.brmcstore.com/">Black Rebel Motorcycle Club</a></li>
-                      <li><a target="_blank" href="http://katenashshop.com/">Kate Nash</a></li>
-                      <li><a target="_blank" href="http://lordhuronstore.com">Lord Huron</a></li>
-                      <li><a target="_blank" href="http://www.leonbridgesshop.com/">Leon Bridges</a></li>
-                      <li><a target="_blank" href="http://stluciastore.com/">St. Lucia</a></li>
-                      <li><a target="_blank" href="http://www.theoffspringstore.com/
-">The Offspring</a></li>
-                      <li><a target="_blank" href="http://nightriotsshop.com/
-">Night Riots</a></li>
-                      <li><a target="_blank" href="http://www.brettdennenstore.com/">Brett Dennen</a></li>
-                      <li><a target="_blank" href="http://whitedenimstore.com/">White Denim</a></li>
-                      <li><a target="_blank" href="http://flhaunt.com/">FlHaunt: Awesomeness TV</a></li>
-                      <li><a target="_blank" href="http://www.thesoundofmusicontourshop.com/">The Sound of Music</a></li>
-                    </ul>
-                    <div class="test">
                       
-                    </div>
                     <div class="work-image">
                     </div>
                   </div>
@@ -322,7 +301,7 @@
       
       render: function(){
         return (
-          <li><a target="_blank" onClick={this.handleClick} >{this.props.name}</a></li>
+          <li><a target="_blank" href={this.props.site} onClick={this.handleClick} >{this.props.name}</a></li>
         )
       },
 
@@ -363,7 +342,10 @@
           
           list.push(
             <Project 
-              name={project.name} key={key} handleClick={this.props.whenClicked}
+              name={project.name} 
+              key={key}
+              site={project.site}
+              handleClick={this.props.whenClicked}
             />
           )
         }
@@ -459,7 +441,7 @@
     var element = React.createElement(ProjectList, options);
     var proImg = React.createElement(ProjectImage, options);
 
-    React.render(element, document.querySelector('.test'))
+    React.render(element, document.querySelector('.work-list'))
     React.render(proImg, document.querySelector('.work-image'))
   </script>
 
