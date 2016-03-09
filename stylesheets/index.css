@@ -549,6 +549,10 @@ footer {
 }
 
 /* work-project */
-.display {
+.no-display {
   visibility: hidden;
+}
+
+.display {
+  visibility: visible;
 }

@@ -149,8 +149,7 @@
                     <h3>Work</h3>
                     <ul class="work-list">
                       
-                    <div class="work-image">
-                    </div>
+                    
                   </div>
                   
 
@@ -299,15 +298,18 @@
 
     var Project = React.createClass({
       
+
+      handleClick: function(){
+        this.props.whenClicked(this.props.project)
+      },
+
       render: function(){
         return (
           <li><a target="_blank" href={this.props.site} onClick={this.handleClick} >{this.props.name}</a></li>
         )
       },
 
-      handleClick: function(){
-        this.props.whenClicked(this.props.site)
-      }
+      
 
     });
 
@@ -315,22 +317,31 @@
       
       getInitialState: function(){
         return {
-          display: '',
           show: false
         }
       },
 
-      whenClicked: function(project){
+      handleItemClick: function(project){
         this.setState({
-          display: site.name,
-          show: !this.state.show
+          display: project.name,
+          show: !this.state.show,
+          source: project.site,
+          image: project.image
         })
       },
 
       render: function(){
-        return <div>
+        return ( 
+        <div>
           {this.renderList()}
-        </div>
+          <div className="work-image">
+            <ProjectImage 
+              href={this.state.source}
+              src={this.state.image}
+              className={'wow fadeInDown animated' + (this.state.show ? ' display' : ' no-display')}
+            />
+          </div>
+        </div>)
       },
       
       renderList: function(){
@@ -342,10 +353,11 @@
           
           list.push(
             <Project 
-              name={project.name} 
+              name={project.name}
+              project={project} 
               key={key}
               site={project.site}
-              handleClick={this.props.whenClicked}
+              whenClicked={this.handleItemClick}
             />
           )
         }
@@ -358,7 +370,7 @@
     var ProjectImage = React.createClass({
       render: function(){
         return (
-          <a href={this.state.display == this.props.name ? this.props.image : ''}><img src={this.state.display == this.props.name ? this.props.image : ''} className={'wow fadeInDown animated' + (this.state.show ? ' display' : '')}></img></a>
+          <a href={this.props.href}><img src={this.props.src} className={this.props.className}></img></a>
         )
       }
     });
@@ -439,10 +451,8 @@
     }
 
     var element = React.createElement(ProjectList, options);
-    var proImg = React.createElement(ProjectImage, options);
 
     React.render(element, document.querySelector('.work-list'))
-    React.render(proImg, document.querySelector('.work-image'))
   </script>
 
 </html>
