@@ -315,57 +315,69 @@
 
   <script type="text/jsx">
 
-  
-
 
   var Project = React.createClass(function(){
     
     handleClick: function(){
-      this.setState({
-        display = !this.state.display
-      })
+      this.props.whenClicked(this.props.site)
     },
 
-    getInitialState: function{
-      return ({display: false})
-    },
 
     render: function(){
       return (
-        <li><a target="_blank" onClick={this.handleClick} href={this.props.site}>{this.props.name}</a></li>
+        <li><a target="_blank" onClick={this.handleClick} >{this.props.name}</a></li>
       )
     }
-  })
+  });
 
   var ProjectList = React.createClass(function(){
-    render: function(){
-      var list = this.props.images.map(function(site){
-        return <Project {... site.props}/>
-      })
+    
+    getInitialState: function(){
       return (
-        {list}
+        display: ''
+        show: false
       )
+    },
+
+    whenClicked: function(project){
+      this.setState({
+        display: site.name
+        show: !this.state.show
+      })
+    },
+
+    render: function(){
+      return <div>
+        {this.renderList()}
+      </div>
+    },
+    
+    renderList: function(){
+
+      var list = {}    
+      for(var key in this.props.projects) {
+        var project = this.props.projects[key]
+        project.key = key
+        
+        list.push(
+          <Project 
+          {... project.props}/>
+        )
+      }
+      return list
     }
+
+  });
 
   
   var ProjectImage = React.createClass(function(){
     render: function(){
       return (
-        <img src={this.props.image} className={wow fadeInDown animated + (this.state ? ' display' : '')}>
+        <a href={this.state.display == this.props.name ? this.props.image : ''}><img src={this.state.display == this.props.name ? this.props.image : ''} className={wow fadeInDown animated + (this.state.show ? ' display' : '')}></a>
       )
     }
-  })
+  });
 
-  var ProjectImageList = React.createClass(function(){
-    render: function(){
-      var list = this.props.images.map(function(image){
-        return <ProjectImage {... image.props}/>
-      })
-      return (
-        {list}
-      )
-    }
-  })
 
   var options = {
     projects: [
