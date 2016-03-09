@@ -167,7 +167,7 @@
                       <li><a target="_blank" href="http://flhaunt.com/">FlHaunt: Awesomeness TV</a></li>
                       <li><a target="_blank" href="http://www.thesoundofmusicontourshop.com/">The Sound of Music</a></li>
                     </ul>
-                    <div id="work-image">
+                    <div class="work-image">
                       <img src="">
                     </div>
                   </div>
@@ -389,9 +389,11 @@
     ]
   }
 
-  var element = React.createElement(HelloWorld);
+  var proList = React.createElement(ProjectList);
+  var proImg = React.createElement(ProjectImage);
 
-  ReactDOM.render(element, document.body)
+  ReactDOM.render(proList, document.querySelector('.work-list'))
+  ReactDOM.render(proImg, document.querySelector('.work-img'))
   </script>
 
 </html>
