@@ -146,7 +146,7 @@
                     </ul>
                   </div>
                   <div class="col-xs-6">
-                    <h3>Work</h3>
+                    <h3>Work (click to view)</h3>
                     <ul class="work-list">
                       
                     
@@ -305,11 +305,11 @@
 
       render: function(){
         return (
-          <li><a target="_blank" href={this.props.site} onClick={this.handleClick} >{this.props.name}</a></li>
+          <li><a onClick={this.handleClick} >{this.props.name}</a></li>
         )
       },
 
-      
+     
 
     });
 
@@ -334,11 +334,13 @@
         return ( 
         <div>
           {this.renderList()}
-          <div className="work-image">
+          <div className="work-image  wow animated fadeInDown">
             <ProjectImage 
               href={this.state.source}
               src={this.state.image}
-              className={'wow fadeInDown animated' + (this.state.show ? ' display' : ' no-display')}
+              target="_blank" 
+              href={this.state.site} 
+              className={this.state.show ? ' display' : ' no-display'}
             />
           </div>
         </div>)
@@ -380,7 +382,7 @@
       projects: [
         {
           name: 'Star Trek',
-          image: 'imgs/star-ss.png',
+          image: 'imgs/star-trek-ss.png',
           site: 'http://startrekultimatevoyagestore.com/'
         },{
           name: 'Ellie Goulding',

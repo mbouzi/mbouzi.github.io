@@ -373,7 +373,6 @@ p {
 }
 .work-list li {
   font-size: 16px;
-  margin-top: .5em;
 }
 .work-list li a {
   color: #fff;
@@ -555,4 +554,9 @@ footer {
 
 .display {
   visibility: visible;
+}
+
+.work-image img {
+  width: 100%;
+  margin-top: 1em;
 }
