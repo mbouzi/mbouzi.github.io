@@ -307,7 +307,7 @@
 
       render: function(){
         return (
-          <li className="wow animated fadeInDown"><a href={this.props.href} onMouseEnter={this.onEnter} onMouseLeave={this.onLeave} >{this.props.name}</a></li>
+          <li className="wow animated fadeInDown"><a target="_blank" href={this.props.href} onMouseEnter={this.onEnter} onMouseLeave={this.onLeave} >{this.props.name}</a></li>
         )
       },
 
@@ -318,7 +318,7 @@
 
       render: function(){
         return (
-          <a target="_blank" ><img src={this.props.src} className={this.props.className} /></a>
+          <a  ><img src={this.props.src} className={this.props.className} /></a>
         )
       }
 
