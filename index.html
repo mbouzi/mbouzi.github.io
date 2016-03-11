@@ -146,9 +146,12 @@
                     </ul>
                   </div>
                   <div class="col-xs-6">
-                    <h3>Work (click to preview)</h3>
+                    <h3>Work</h3>
                     <ul class="work-list">
                     </ul>
+                    <div id="message">
+                      <h2>Preview</h2>
+                    </div>
                   </div>
                   
 
@@ -324,20 +327,19 @@
         }
       },
 
-      handleItemClick: function(project){
-        if(this.state.display===project.name){
-            this.setState({
-            image: 'imgs/default-ss.png',
-            display: ''
-         })
-        } else {
+      handleItemEnter: function(project){
+        this.setState({
+          display: project.name,
+          source: project.site,
+          image: project.image
+        })
+      },
+
+      handleItemLeave: function(project){
           this.setState({
-            display: project.name,
-            source: project.site,
-            image: project.image
-          })
-        }
-        
+          image: 'imgs/default-ss.png',
+          display: ''
+       })
       },
 
       render: function(){
@@ -367,7 +369,8 @@
               project={project} 
               key={key}
               site={project.site}
-              whenClicked={this.handleItemClick}
+              onItemEnter={this.handleItemEnter}
+              onItemLeave={this.handleItemLeave}
             />
           )
         }
