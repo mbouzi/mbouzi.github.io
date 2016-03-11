@@ -211,7 +211,7 @@ p {
 #skills {
     background: rgb(32, 35, 38);
     h3 {
-    	color: #e6af61;
+    	color: $gold;
     	font-family: Fontin;
     }
     height: 100%;
@@ -245,7 +245,7 @@ p {
 
 #skills h4 {
 	text-align: left;
-	color: #e6af61;
+	color: $gold;
 	font-family: Fontin;
 }
 
@@ -454,8 +454,10 @@ footer {
 .work-image img {
 	width: 100%;
 	margin-top: 1em;
-
+	border: 1px solid $gold;
+	padding: 4px;
 }
+
 
 
 

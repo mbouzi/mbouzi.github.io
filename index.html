@@ -146,10 +146,9 @@
                     </ul>
                   </div>
                   <div class="col-xs-6">
-                    <h3>Work (click to view)</h3>
+                    <h3>Work (click to preview)</h3>
                     <ul class="work-list">
-                      
-                    
+                    </ul>
                   </div>
                   
 
@@ -299,13 +298,16 @@
     var Project = React.createClass({
       
 
-      handleClick: function(){
-        this.props.whenClicked(this.props.project)
+      onEnter: function(){
+        this.props.onItemEnter(this.props.project)
+      },
+      onLeave: function(){
+        this.props.onItemLeave(this.props.project)
       },
 
       render: function(){
         return (
-          <li className="wow animated fadeInDown"><a onClick={this.handleClick} >{this.props.name}</a></li>
+          <li className="wow animated fadeInDown"><a onMouseEnter={this.onEnter} onMouseLeave={this.onLeave} >{this.props.name}</a></li>
         )
       },
 
@@ -317,18 +319,16 @@
       
       getInitialState: function(){
         return {
-          show: false,
-          display: ''
+          display: '',
+          image: 'imgs/default-ss.png'
         }
       },
 
       handleItemClick: function(project){
-        if(this.state.display===project.name || this.state.display=== ''){
+        if(this.state.display===project.name){
             this.setState({
-            show: !this.state.show,
-            display: project.name,
-            source: project.site,
-            image: project.image
+            image: 'imgs/default-ss.png',
+            display: ''
          })
         } else {
           this.setState({
@@ -344,13 +344,11 @@
         return ( 
         <div>
           {this.renderList()}
-          <div className="work-image  wow animated fadeInDown">
+          <div className="work-image wow animated fadeInDown">
             <ProjectImage 
               href={this.state.source}
               src={this.state.image}
               target="_blank" 
-              href={this.state.site} 
-              className={this.state.show ? ' display' : ' no-display'}
             />
           </div>
         </div>)
@@ -382,7 +380,7 @@
     var ProjectImage = React.createClass({
       render: function(){
         return (
-          <a href={this.props.href}><img src={this.props.src} className={this.props.className}></img></a>
+          <a target="_blank" href={this.props.href}><img src={this.props.src} /></a>
         )
       }
     });
