@@ -72,11 +72,14 @@
 	}
 
 	.desc {
-		width: 44em !important;
-		left: -.5em !important;
-		bottom: 3.4em !important;
+		width: 88% !important;
+	    left: 2.8em !important;
+	    bottom: 3.4em !important;
 	}
 
+	#welcome-words {
+		top: 15% !important;
+	}
 	
 	#welcome-words h1 {
 	    font-size: 4em !important;
@@ -85,6 +88,10 @@
 	#scroll-btn {
 	    margin-top: 4em !important;
 	    display: block;
+	}
+
+	#skills {
+		height: 210% !important;
 	}
 
 
@@ -113,6 +120,10 @@
 		width: 100% !important;
 	}
 
+	#welcome-words {
+		top: 25% !important;
+	}
+
 	#welcome-words h1 {
 	    font-size: 4em !important;
 	}
@@ -122,7 +133,7 @@
 	}
 
 	#skills {
-		height: 150% !important;
+		height: 250% !important;
 	}
 
 
@@ -132,9 +143,9 @@
 	}
 
 	.desc {
-		bottom: .2em !important;
-		left: 2.2em !important;
-		width: 86% !important;
+	    width: 88% !important;
+	    left: 3em !important;
+	    bottom: 3.4em !important;
 	}
 
 	
@@ -143,10 +154,6 @@
 	}
 
 
-	.desc {
-	    /* margin-left: .2em !important; */
-	    width: 100% !important;
-	}
 	
 }
 
@@ -171,6 +178,11 @@
 	#welcome-words img {
 		width: 25% !important;
 	}
+
+	#skills {
+		height: 160% !important;
+	}
+
 
 	.desc {
 		bottom: -2.8em !important;
