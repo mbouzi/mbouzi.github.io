@@ -378,9 +378,11 @@ p {
   color: #fff;
   text-decoration: none;
   margin-right: 2em;
+  transition-duration: .5s;
 }
 .work-list li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #e6af61;
 }
 
 #skills h4 {
@@ -420,7 +422,7 @@ p {
   margin: 1em auto;
   padding-bottom: .5em;
 }
-.project-title:hover {
+.project-title::hover {
   background: #202326;
 }
 .project-title:active {
@@ -559,13 +561,10 @@ footer {
 .work-image img {
   width: 100%;
   margin-top: 1em;
-  border: 1px solid #e6af61;
   padding: 4px;
+  margin-left: -2em;
 }
 
-#message {
-  width: 550px;
-  height: 300px;
-  margin-top: 1em;
-  color: #e6af61;
+.border {
+  border: 1px solid #e6af61;
 }

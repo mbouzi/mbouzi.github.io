@@ -236,11 +236,12 @@ p {
 	    color: #fff;
 	    text-decoration: none;
 	    margin-right: 2em;
+	    transition-duration: .5s;
 	    &:hover {
-	    	text-decoration: underline;
+	    	text-decoration: none;
+    		color: $gold;
 	    }
     }
-
 }
 
 #skills h4 {
@@ -282,7 +283,7 @@ p {
     transition-duration: .5s;
     margin: 1em auto;
     padding-bottom: .5em;
-	&:hover {
+	&::hover {
 		background: $dark-gray;
 	}
 	&:active {
@@ -454,17 +455,15 @@ footer {
 .work-image img {
 	width: 100%;
 	margin-top: 1em;
-	border: 1px solid $gold;
 	padding: 4px;
+	margin-left: -2em;
+}
+
+.border {
+	border: 1px solid $gold;
 }
 
 
-#message {
-	width: 550px;
-	height: 300px;
-	margin-top: 1em;
-	color: $gold;
-}
 
 
 

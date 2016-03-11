@@ -149,9 +149,6 @@
                     <h3>Work</h3>
                     <ul class="work-list">
                     </ul>
-                    <div id="message">
-                      <h2>Preview</h2>
-                    </div>
                   </div>
                   
 
@@ -167,7 +164,7 @@
           <div id="projects">
             <div class="row">
               <div class="col-lg-12">
-                  <h1>Recent Projects</h1>
+                  <h1>Personal Projects</h1>
               </div>
             </div>
 
@@ -310,11 +307,20 @@
 
       render: function(){
         return (
-          <li className="wow animated fadeInDown"><a onMouseEnter={this.onEnter} onMouseLeave={this.onLeave} >{this.props.name}</a></li>
+          <li className="wow animated fadeInDown"><a href={this.props.href} onMouseEnter={this.onEnter} onMouseLeave={this.onLeave} >{this.props.name}</a></li>
         )
       },
 
-     
+
+    });
+
+     var ProjectImage = React.createClass({
+
+      render: function(){
+        return (
+          <a target="_blank" ><img src={this.props.src} className={this.props.className} /></a>
+        )
+      }
 
     });
 
@@ -348,9 +354,8 @@
           {this.renderList()}
           <div className="work-image wow animated fadeInDown">
             <ProjectImage 
-              href={this.state.source}
               src={this.state.image}
-              target="_blank" 
+              className={this.state.display==='' ? '' : 'border'}
             />
           </div>
         </div>)
@@ -366,7 +371,8 @@
           list.push(
             <Project 
               name={project.name}
-              project={project} 
+              project={project}
+              href={this.state.source}
               key={key}
               site={project.site}
               onItemEnter={this.handleItemEnter}
@@ -379,14 +385,6 @@
 
     });
 
-    
-    var ProjectImage = React.createClass({
-      render: function(){
-        return (
-          <a target="_blank" href={this.props.href}><img src={this.props.src} /></a>
-        )
-      }
-    });
 
 
     var options = {
