@@ -283,7 +283,7 @@ p {
     transition-duration: .5s;
     margin: 1em auto;
     padding-bottom: .5em;
-	&::hover {
+	&:hover {
 		background: $dark-gray;
 	}
 	&:active {

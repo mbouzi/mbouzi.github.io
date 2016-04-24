@@ -433,7 +433,7 @@ p {
   margin: 1em auto;
   padding-bottom: .5em;
 }
-.project-title::hover {
+.project-title:hover {
   background: #202326;
 }
 .project-title:active {
